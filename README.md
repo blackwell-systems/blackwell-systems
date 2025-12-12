@@ -24,6 +24,6 @@
 
 - Cloud/Platform & backend engineer:  APIs, Infrastructure as Code, Automation
 - Product Engineer
-- Compliance automation for FDA-regulated systems
+- Compliance Automation for FDA-regulated systems
 - Exploring blockchain security and on-chain systems
 - Building developer tooling: secrets orchestration, reproducible environments, and CLI workflows
