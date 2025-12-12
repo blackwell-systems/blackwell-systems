@@ -3,3 +3,12 @@
 ![Python](https://img.shields.io/badge/Python-%F0%9F%90%8D-111111?logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/Java-%E2%98%95-111111?logo=openjdk&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-111111?logo=nodedotjs&logoColor=white)
+
+![Platform](https://img.shields.io/badge/Platform-%F0%9F%8D%8E%20macOS%20%7C%20%F0%9F%90%A7%20Linux%20%7C%20%F0%9F%AA%9F%20WSL-4A4A4A) ![Zsh](https://img.shields.io/badge/Zsh-4A4A4A?logo=zsh&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4A4A4A?logo=gnubash&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-%F0%9F%94%A7-F05032?logo=git&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
+![AWS CDK](https://img.shields.io/badge/AWS%20CDK-111111?logo=amazonaws&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-2496ED?logo=docker&logoColor=white)
