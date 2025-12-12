@@ -9,11 +9,13 @@
 ![Bash](https://img.shields.io/badge/Bash-292c34?logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-6b7280?logo=powershell&logoColor=white)
 
-![Git](https://img.shields.io/badge/Git-%F0%9F%94%A7-F05032?logo=git&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
-![AWS CDK](https://img.shields.io/badge/AWS%20CDK-111111?logo=amazonaws&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white)
-![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-2496ED?logo=docker&logoColor=white)
-[![GPT (OpenAI)](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-black?logo=openai&logoColor=white)](https://openai.com/)
-[![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-black?logo=anthropic&logoColor=white)](https://www.anthropic.com/)
+
+![Git](https://img.shields.io/badge/Git-%F0%9F%94%A7-292c34?logo=git&logoColor=f41c80)
+![Terraform](https://img.shields.io/badge/Terraform-292c34?logo=terraform&logoColor=f41c80)
+![AWS%20CDK](https://img.shields.io/badge/AWS%20CDK-292c34?logo=amazonaws&logoColor=f41c80)
+![Datadog](https://img.shields.io/badge/Datadog-292c34?logo=datadog&logoColor=f41c80)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-292c34?logo=opentelemetry&logoColor=f41c80)
+![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-292c34?logo=docker&logoColor=f41c80)
+
+[![GPT](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-292c34?logo=openai&logoColor=f41c80)](https://openai.com/)
+[![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-292c34?logo=anthropic&logoColor=f41c80)](https://www.anthropic.com/)
