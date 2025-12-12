@@ -12,3 +12,5 @@
 ![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?logo=opentelemetry&logoColor=white)
 ![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-2496ED?logo=docker&logoColor=white)
+[![GPT (OpenAI)](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-black?logo=openai&logoColor=white)](https://openai.com/)
+[![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-black?logo=anthropic&logoColor=white)](https://www.anthropic.com/)
