@@ -20,8 +20,8 @@
 [![GPT](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-292c34?logo=openai&logoColor=f41c80)](https://openai.com/)
 [![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-292c34?logo=anthropic&logoColor=f41c80)](https://www.anthropic.com/)
 
-Compliance automation for FDA-regulated systems
-
-Exploring blockchain security and on-chain systems.
-
-Building developer tooling for secure automation: secrets orchestration, reproducible environments, and CLI workflows.
+- Cloud/Platform & backend engineer:  APIs, Infrastructure as Code, Automation
+- Product Engineer
+- Compliance automation for FDA-regulated systems
+- Exploring blockchain security and on-chain systems
+- Building developer tooling: secrets orchestration, reproducible environments, and CLI workflows
