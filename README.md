@@ -19,6 +19,25 @@ objects but reclaimed 0 slabs
 Implementation](https://github.com/blackwell-systems/temporal-slab) •
 [Validation](https://github.com/blackwell-systems/redis-drainprof) 
 
+### Normalization Confluence: Coordination-Free Convergence with Compensation
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18671870.svg)](https://doi.org/10.5281/zenodo.18671870)
+
+Event-driven systems can converge without coordination even when operations violate invariants and don't
+commute—if compensation is well-founded and commutative. This work identifies a third convergence regime
+alongside CRDTs and invariant confluence, proves convergence via Newman's Lemma, and extends to federated
+multi-organizational networks where morphisms encode cross-org constraints
+
+**[→ Explore the project](https://github.com/blackwell-systems/semantic-eventual-consistency)**
+
+- **Single-registry:** WFC + CC conditions guarantee convergence for registry-governed streams
+- **Federated extension:** Authority argument proves tree-shaped networks require only morphism validity
+preservation
+- Build-time verification tools (`gsm`, `nccheck`) with exhaustive state-space enumeration
+
+**Components:** [Core Paper](https://doi.org/10.5281/zenodo.18671870) • [Federated
+Paper](https://doi.org/10.5281/zenodo.18677400) • [gsm Library](https://github.com/blackwell-systems/gsm) •
+[nccheck Verifier](https://github.com/blackwell-systems/nccheck)
 
 Languages:
 
