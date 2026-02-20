@@ -32,6 +32,8 @@ Event-driven systems can converge without coordination even when operations viol
 commute—if compensation is well-founded and commutative. This work identifies a third convergence regime
 alongside CRDTs and invariant confluence, where compensated results commute even though operations don't.
 
+**[→ Explore the project](https://github.com/blackwell-systems/semantic-eventual-consistency)**
+
 - **WFC + CC conditions** guarantee convergence via Newman's Lemma
 - **Verification calculus** reduces global CC obligation to local per-event-pair checks
 - Build-time verification tools with exhaustive state-space enumeration
@@ -48,12 +50,10 @@ Extends normalization confluence to federated environments where multiple regist
 encoding cross-organizational constraints. For tree-shaped networks, proves federated convergence requires only
 morphism validity preservation—all other conditions derive from network acyclicity via an authority argument
 
-**[→ Explore the project](https://github.com/blackwell-systems/semantic-eventual-consistency)**
-
-- **Single-registry:** WFC + CC conditions guarantee convergence for registry-governed streams
-- **Federated extension:** Authority argument proves tree-shaped networks require only morphism validity
-preservation
-- Build-time verification tools (`gsm`, `nccheck`) with exhaustive state-space enumeration
+- **Authority argument:** Source normal forms deterministically control target shared components
+- **Federated construction:** Reduces multi-registry problem to single-registry case
+- **Necessity proofs:** Acyclicity required (cyclic morphisms cause compensation cycles), validity preservation
+  required (morphism repair and local compensation oscillate)
 
 **Components:** [Core Paper](https://doi.org/10.5281/zenodo.18671870) • [Federated
 Paper](https://doi.org/10.5281/zenodo.18677400) • [gsm Library](https://github.com/blackwell-systems/gsm) •
