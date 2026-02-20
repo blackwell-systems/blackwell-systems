@@ -1,5 +1,25 @@
 [![Blackwell Systems™](https://raw.githubusercontent.com/blackwell-systems/blackwell-docs-theme/main/badge-trademark.svg)](https://github.com/blackwell-systems)
 
+## Featured Research
+
+### Memory Drainability: Understanding Structural Memory Leaks
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653776.svg)](https://doi.org/10.5281/zenodo.18653776)
+
+Allocators using coarse-grained reclamation (slabs, arenas, epochs) can exhibit unbounded retention even when
+all objects are freed. A single long-lived allocation pins an entire granule. This work formalizes when bounded
+retention is possible and provides measurement tools validated on Redis, where deleting 50% of keys freed 195K
+objects but reclaimed 0 slabs
+
+**[→ Explore the project](https://github.com/blackwell-systems/drainability)**
+
+**Components:** 
+[Paper](https://doi.org/10.5281/zenodo.18653776) •
+[Theory](https://github.com/blackwell-systems/drainability-framework) •
+[Measurement](https://github.com/blackwell-systems/drainability-profiler) • [Reference
+Implementation](https://github.com/blackwell-systems/temporal-slab) •
+[Validation](https://github.com/blackwell-systems/redis-drainprof) 
+
+
 Languages:
 
 ![Rust](https://img.shields.io/badge/Rust-%F0%9F%A6%80-292c34?logo=rust&logoColor=white)
