@@ -1,5 +1,11 @@
 [![Blackwell Systems™](https://raw.githubusercontent.com/blackwell-systems/blackwell-docs-theme/main/badge-trademark.svg)](https://github.com/blackwell-systems)
 
+## Systems Engineer & Researcher
+
+**Currently:** Product engineering, backend systems, and cloud infrastructure  
+**Focus:** Memory management, distributed systems, performance engineering  
+**Building toward:** Deep systems work and research roles
+
 ## Featured Research
 
 ### Memory Drainability: Understanding Structural Memory Leaks
@@ -38,6 +44,8 @@ preservation
 **Components:** [Core Paper](https://doi.org/10.5281/zenodo.18671870) • [Federated
 Paper](https://doi.org/10.5281/zenodo.18677400) • [gsm Library](https://github.com/blackwell-systems/gsm) •
 [nccheck Verifier](https://github.com/blackwell-systems/nccheck)
+
+## Technical Background
 
 Languages:
 
