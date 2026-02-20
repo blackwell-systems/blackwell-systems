@@ -26,13 +26,18 @@ Implementation](https://github.com/blackwell-systems/temporal-slab) •
 [Validation](https://github.com/blackwell-systems/redis-drainprof) 
 
 ### Normalization Confluence: Coordination-Free Convergence with Compensation
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18671870.svg)](https://doi.org/10.5281/zenodo.18671870)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18671870.svg)](https://doi.org/10.5281/zenodo.18671870)  
 
 Event-driven systems can converge without coordination even when operations violate invariants and don't
 commute—if compensation is well-founded and commutative. This work identifies a third convergence regime
-alongside CRDTs and invariant confluence, proves convergence via Newman's Lemma, and extends to federated
-multi-organizational networks where morphisms encode cross-org constraints
+alongside CRDTs and invariant confluence, where compensated results commute even though operations don't.
+
+### Federated Normalization Confluence: Multi-Organizational Convergence
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
+
+Extends normalization confluence to federated environments where multiple registries are connected by morphisms
+encoding cross-organizational constraints. For tree-shaped networks, proves federated convergence requires only
+morphism validity preservation—all other conditions derive from network acyclicity via an authority argument
 
 **[→ Explore the project](https://github.com/blackwell-systems/semantic-eventual-consistency)**
 
