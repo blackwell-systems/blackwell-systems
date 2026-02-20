@@ -32,6 +32,15 @@ Event-driven systems can converge without coordination even when operations viol
 commute—if compensation is well-founded and commutative. This work identifies a third convergence regime
 alongside CRDTs and invariant confluence, where compensated results commute even though operations don't.
 
+- **WFC + CC conditions** guarantee convergence via Newman's Lemma
+- **Verification calculus** reduces global CC obligation to local per-event-pair checks
+- Build-time verification tools with exhaustive state-space enumeration
+
+**Components:** [Paper](https://doi.org/10.5281/zenodo.18671870) • [Landing
+Page](https://github.com/blackwell-systems/semantic-eventual-consistency) • [gsm
+Library](https://github.com/blackwell-systems/gsm) • [nccheck
+Verifier](https://github.com/blackwell-systems/nccheck)
+
 ### Federated Normalization Confluence: Multi-Organizational Convergence
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
 
