@@ -60,21 +60,21 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 
 ### Research
 
-**Graph Compact Format (GCF)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20579817.svg)](https://doi.org/10.5281/zenodo.20579817)
+**Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 A token-efficient wire format for LLM tool interactions. 1,300+ evaluations across 10 models and 3 providers.
 
-**The Hierarchical Identity Architecture** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20342254.svg)](https://doi.org/10.5281/zenodo.20342254)
+**The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342254-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342254)
 Content-addressing as a computation primitive for software relationship intelligence.
 
-**Memory Drainability** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653776.svg)](https://doi.org/10.5281/zenodo.18653776)
+**Memory Drainability** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18653776-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18653776)
 Formalizes when coarse-grained allocators can reclaim memory. Validated on Redis: 50% key deletion freed 195K objects, reclaimed 0 slabs.
 [Explore the project](https://github.com/blackwell-systems/drainability)
 
-**Normalization Confluence** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18671870.svg)](https://doi.org/10.5281/zenodo.18671870)
+**Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
 Coordination-free convergence via well-founded compensation. Third convergence regime alongside CRDTs and invariant confluence.
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
-**Federated Normalization Confluence** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
+**Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
 Multi-organizational convergence through morphism validity preservation over acyclic networks.
 
 ---
