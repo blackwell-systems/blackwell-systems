@@ -111,3 +111,4 @@ Artificial Intelligence:
 
 [![GPT](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-292c34?logo=openai&logoColor=f41c80&style=for-the-badge)](https://openai.com/)
 [![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-292c34?logo=anthropic&logoColor=f41c80&style=for-the-badge)](https://www.anthropic.com/)
+[![Gemini](https://img.shields.io/badge/Gemini-%E2%9C%A8%20Google-292c34?logo=googlegemini&logoColor=f41c80&style=for-the-badge)](https://deepmind.google/technologies/gemini/)
