@@ -1,65 +1,77 @@
 [![Blackwell Systems™](https://raw.githubusercontent.com/blackwell-systems/blackwell-docs-theme/main/badge-trademark.svg)](https://github.com/blackwell-systems)
 
-## Systems Engineer & Researcher
+## AI Infrastructure & Systems Engineering
 
-**Currently:** Product engineering, backend systems, and cloud infrastructure  
-**Focus:** Memory management, distributed systems, performance engineering  
-**Building toward:** Deep systems work and research roles
+Building tools for the agentic AI stack. Wire formats, code intelligence, MCP infrastructure, conformance testing.
 
-## Featured Research
+---
 
-### Memory Drainability: Understanding Structural Memory Leaks
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653776.svg)](https://doi.org/10.5281/zenodo.18653776)
+### GCF (Graph Compact Format)
 
-Allocators using coarse-grained reclamation (slabs, arenas, epochs) can exhibit unbounded retention even when
-all objects are freed. A single long-lived allocation pins an entire granule. This work formalizes when bounded
-retention is possible and provides measurement tools validated on Redis, where deleting 50% of keys freed 195K
-objects but reclaimed 0 slabs
+Drop-in JSON replacement for AI pipelines. 79% fewer tokens. 90.7% comprehension accuracy where JSON averages 53.6%. 1,300+ LLM evaluations across 10 models and 3 providers. Zero training required.
 
-**[→ Explore the project](https://github.com/blackwell-systems/drainability)**
+[![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
+[![Benchmarks](https://img.shields.io/badge/benchmarks-1%2C300%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 
-**Components:** 
-[Paper](https://doi.org/10.5281/zenodo.18653776) •
-[Theory](https://github.com/blackwell-systems/drainability-framework) •
-[Measurement](https://github.com/blackwell-systems/drainability-profiler) • [Reference
-Implementation](https://github.com/blackwell-systems/temporal-slab) •
-[Validation](https://github.com/blackwell-systems/redis-drainprof) 
+[Spec](https://github.com/blackwell-systems/gcf) ·
+[Go](https://github.com/blackwell-systems/gcf-go) ·
+[TypeScript](https://github.com/blackwell-systems/gcf-typescript) ·
+[Python](https://github.com/blackwell-systems/gcf-python) ·
+[Rust](https://github.com/blackwell-systems/gcf-rust) ·
+[Swift](https://github.com/blackwell-systems/gcf-swift) ·
+[Kotlin](https://github.com/blackwell-systems/gcf-kotlin) ·
+[Proxy](https://github.com/blackwell-systems/gcf-proxy) ·
+[Tree-sitter](https://github.com/blackwell-systems/tree-sitter-gcf)
 
-### Normalization Confluence: Coordination-Free Convergence with Compensation
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18671870.svg)](https://doi.org/10.5281/zenodo.18671870)  
+### agent-lsp
 
-Event-driven systems can converge without coordination even when operations violate invariants and don't
-commute—if compensation is well-founded and commutative. This work identifies a third convergence regime
-alongside CRDTs and invariant confluence, where compensated results commute even though operations don't.
+Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format.
 
-**[→ Explore the project](https://github.com/blackwell-systems/normalization-confluence)**
+[Repository](https://github.com/blackwell-systems/agent-lsp)
 
-- **WFC + CC conditions** guarantee convergence via Newman's Lemma
-- **Verification calculus** reduces global CC obligation to local per-event-pair checks
-- Build-time verification tools with exhaustive state-space enumeration
+### mcp-assert
 
-**Components:** [Paper](https://doi.org/10.5281/zenodo.18671870) • [Landing
-Page](https://github.com/blackwell-systems/semantic-eventual-consistency) • [gsm
-Library](https://github.com/blackwell-systems/gsm) • [nccheck
-Verifier](https://github.com/blackwell-systems/nccheck)
+Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation.
 
-### Federated Normalization Confluence: Multi-Organizational Convergence
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
+[Repository](https://github.com/blackwell-systems/mcp-assert)
 
-Extends normalization confluence to federated environments where multiple registries are connected by morphisms
-encoding cross-organizational constraints. For tree-shaped networks, proves federated convergence requires only
-morphism validity preservation—all other conditions derive from network acyclicity via an authority argument
+### knowing
 
-- **Authority argument:** Source normal forms deterministically control target shared components
-- **Federated construction:** Reduces multi-registry problem to single-registry case
-- **Necessity proofs:** Acyclicity required (cyclic morphisms cause compensation cycles), validity preservation
-  required (morphism repair and local compensation oscillate)
+Self-adapting code intelligence engine. The system GCF was extracted from. 28 MCP tools, graph-native analysis, session deduplication.
 
-**Components:** [Core Paper](https://doi.org/10.5281/zenodo.18671870) • [Federated
-Paper](https://doi.org/10.5281/zenodo.18677400) • [gsm Library](https://github.com/blackwell-systems/gsm) •
-[nccheck Verifier](https://github.com/blackwell-systems/nccheck)
+[Repository](https://github.com/blackwell-systems/knowing)
 
-## Technical Background
+### GCP Emulator Suite
+
+Local implementations of Google Cloud APIs for development and CI. No GCP credentials required.
+
+[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator) (50K+ downloads) ·
+[KMS](https://github.com/blackwell-systems/gcp-kms-emulator) ·
+[IAM](https://github.com/blackwell-systems/gcp-iam-emulator) ·
+[Eventarc](https://github.com/blackwell-systems/gcp-eventarc-emulator) ·
+[Auth](https://github.com/blackwell-systems/gcp-emulator-auth) ·
+[IAM Control Plane](https://github.com/blackwell-systems/gcp-iam-control-plane) ·
+[Core](https://github.com/blackwell-systems/gcp-emulator)
+
+---
+
+### Research
+
+**Memory Drainability** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653776.svg)](https://doi.org/10.5281/zenodo.18653776)
+Formalizes when coarse-grained allocators can reclaim memory. Validated on Redis: 50% key deletion freed 195K objects, reclaimed 0 slabs.
+[Explore the project](https://github.com/blackwell-systems/drainability)
+
+**Normalization Confluence** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18671870.svg)](https://doi.org/10.5281/zenodo.18671870)
+Coordination-free convergence via well-founded compensation. Third convergence regime alongside CRDTs and invariant confluence.
+[Explore the project](https://github.com/blackwell-systems/normalization-confluence)
+
+**Federated Normalization Confluence** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18677400.svg)](https://doi.org/10.5281/zenodo.18677400)
+Multi-organizational convergence through morphism validity preservation over acyclic networks.
+
+---
+
+### Technical Background
 
 Languages:
 
@@ -90,4 +102,3 @@ Artificial Intelligence:
 
 [![GPT](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-292c34?logo=openai&logoColor=f41c80)](https://openai.com/)
 [![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-292c34?logo=anthropic&logoColor=f41c80)](https://www.anthropic.com/)
-
