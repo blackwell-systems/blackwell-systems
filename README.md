@@ -8,6 +8,8 @@ Building tools for the agentic AI stack. Wire formats, code intelligence, MCP in
 
 ### GCF (Graph Compact Format)
 
+[![GCF](https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-infographic.png)](https://github.com/blackwell-systems/gcf)
+
 Drop-in JSON replacement for AI pipelines. 79% fewer tokens. 90.7% comprehension accuracy where JSON averages 53.6%. 1,300+ LLM evaluations across 10 models and 3 providers. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
@@ -26,21 +28,21 @@ Drop-in JSON replacement for AI pipelines. 79% fewer tokens. 90.7% comprehension
 
 ### agent-lsp
 
-Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format.
+[![agent-lsp](https://raw.githubusercontent.com/blackwell-systems/agent-lsp/main/assets/social-preview.png)](https://github.com/blackwell-systems/agent-lsp)
 
-[Repository](https://github.com/blackwell-systems/agent-lsp)
+Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format.
 
 ### mcp-assert
 
-Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation.
+[![mcp-assert](https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png)](https://github.com/blackwell-systems/mcp-assert)
 
-[Repository](https://github.com/blackwell-systems/mcp-assert)
+Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation.
 
 ### knowing
 
-Self-adapting code intelligence engine. The system GCF was extracted from. 28 MCP tools, graph-native analysis, session deduplication.
+[![knowing](https://raw.githubusercontent.com/blackwell-systems/knowing/main/assets/knowing-social-preview.jpg)](https://github.com/blackwell-systems/knowing)
 
-[Repository](https://github.com/blackwell-systems/knowing)
+Self-adapting code intelligence engine. The system GCF was extracted from. 28 MCP tools, graph-native analysis, session deduplication.
 
 ### GCP Emulator Suite
 
