@@ -60,6 +60,12 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 
 ### Research
 
+**Graph Compact Format (GCF)** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20579817.svg)](https://doi.org/10.5281/zenodo.20579817)
+A token-efficient wire format for LLM tool interactions. 1,300+ evaluations across 10 models and 3 providers.
+
+**The Hierarchical Identity Architecture** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20342254.svg)](https://doi.org/10.5281/zenodo.20342254)
+Content-addressing as a computation primitive for software relationship intelligence.
+
 **Memory Drainability** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653776.svg)](https://doi.org/10.5281/zenodo.18653776)
 Formalizes when coarse-grained allocators can reclaim memory. Validated on Redis: 50% key deletion freed 195K objects, reclaimed 0 slabs.
 [Explore the project](https://github.com/blackwell-systems/drainability)
