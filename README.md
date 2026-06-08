@@ -105,6 +105,7 @@ Developer Tooling:
 ![Datadog](https://img.shields.io/badge/Datadog-292c34?logo=datadog&logoColor=f41c80&style=for-the-badge)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-292c34?logo=opentelemetry&logoColor=f41c80&style=for-the-badge)
 ![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-292c34?logo=docker&logoColor=f41c80&style=for-the-badge)
+![GCP](https://img.shields.io/badge/Google%20Cloud-292c34?logo=googlecloud&logoColor=f41c80&style=for-the-badge)
 
 Artificial Intelligence:
 
