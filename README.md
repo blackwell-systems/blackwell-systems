@@ -81,6 +81,14 @@ Multi-organizational convergence through morphism validity preservation over acy
 
 ---
 
+### Upstream Contributions
+
+27 merged PRs across Anthropic, Google, Grafana, GitHub, LangChain, Stretchr (testify), Charmbracelet, mark3labs (mcp-go), Ant Group, and others. #6 contributor to [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) (8.7K stars), the primary Go MCP SDK.
+
+[Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
+
+---
+
 ### Technical Background
 
 Languages:
