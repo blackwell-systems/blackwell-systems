@@ -84,6 +84,7 @@ Multi-organizational convergence through morphism validity preservation over acy
 ### Upstream Contributions
 
 27 merged PRs. #6 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (8.7K stars).
+Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport bugs.
 
 | Organization | What | Stars |
 |:---|:---|---:|
