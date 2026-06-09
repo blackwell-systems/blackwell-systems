@@ -66,6 +66,7 @@ A token-efficient wire format for LLM tool interactions. 1,300+ evaluations acro
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342254-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342254)
 Content-addressing as a computation primitive for software relationship intelligence.
+[Explore the project](https://github.com/blackwell-systems/knowing) · [merkle-strata](https://github.com/blackwell-systems/merkle-strata)
 
 **Memory Drainability** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18653776-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18653776)
 Formalizes when coarse-grained allocators can reclaim memory. Validated on Redis: 50% key deletion freed 195K objects, reclaimed 0 slabs.
