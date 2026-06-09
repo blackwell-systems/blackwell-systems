@@ -1,0 +1,35 @@
+name: Update Total Stars
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count total stars
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TOTAL=$(gh api users/blackwell-systems/repos --paginate --jq '.[].stargazers_count' | awk '{s+=$1} END {print s}')
+          echo "Total stars: $TOTAL"
+
+          cat > stars-badge.json <<EOF
+          {
+            "schemaVersion": 1,
+            "label": "total stars",
+            "message": "$TOTAL",
+            "color": "yellow",
+            "style": "for-the-badge"
+          }
+          EOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stars-badge.json
+          git diff --cached --quiet || (git commit -m "chore: update total stars badge" && git push)
