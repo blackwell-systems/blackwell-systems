@@ -62,6 +62,7 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 A token-efficient wire format for LLM tool interactions. 1,300+ evaluations across 10 models and 3 providers.
+[Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342254-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342254)
 Content-addressing as a computation primitive for software relationship intelligence.
