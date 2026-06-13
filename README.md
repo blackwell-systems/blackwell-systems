@@ -13,7 +13,7 @@ Building tools for the agentic AI stack. Wire formats, code intelligence, MCP in
 Drop-in JSON replacement for AI pipelines. 79% fewer tokens. 90.7% comprehension accuracy where JSON averages 53.6%. 1,300+ LLM evaluations across 10 models and 3 providers. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
-[![Benchmarks](https://img.shields.io/badge/benchmarks-1%2C300%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
+[![Benchmarks](https://img.shields.io/badge/benchmarks-1%2C700%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 
 [Spec](https://github.com/blackwell-systems/gcf) ·
