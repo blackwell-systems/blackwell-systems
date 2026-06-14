@@ -10,10 +10,11 @@ Building tools for the agentic AI stack. Wire formats, code intelligence, MCP in
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-infographic.png" width="50%" alt="GCF"></a>
 
-Drop-in JSON replacement for AI pipelines. 79% fewer tokens. 90.7% comprehension accuracy where JSON averages 53.6%. 1,300+ LLM evaluations across 10 models and 3 providers. Zero training required.
+The AI-native wire format for structured data. 100% comprehension on every frontier model. 53-71% fewer tokens than JSON, 25.5% fewer than TOON. 1,700+ LLM evaluations across 10+ models and 3 providers. 23B+ lossless round-trips across 5 formats. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-1%2C700%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
+[![Playground](https://img.shields.io/badge/playground-live-2563eb?style=for-the-badge)](https://gcformat.com/playground.html)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 
 [Spec](https://github.com/blackwell-systems/gcf) ·
@@ -61,7 +62,7 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 ### Research
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-A token-efficient wire format for LLM tool interactions. 1,300+ evaluations across 10 models and 3 providers.
+The AI-native wire format for structured data. 1,700+ evaluations across 10+ models and 3 providers. 23B+ lossless round-trips. Spec v3.1 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342254-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342254)
