@@ -13,7 +13,7 @@ Building tools for the agentic AI stack. Wire formats, code intelligence, MCP in
 The AI-native wire format for structured data. 100% comprehension on every frontier model. 53-71% fewer tokens than JSON, 25.5% fewer than TOON. 1,700+ LLM evaluations across 10+ models and 3 providers. 23B+ lossless round-trips across 5 formats. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
-[![Benchmarks](https://img.shields.io/badge/benchmarks-1%2C700%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
+[![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C400%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
 [![Playground](https://img.shields.io/badge/playground-live-2563eb?style=for-the-badge)](https://gcformat.com/playground.html)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 
