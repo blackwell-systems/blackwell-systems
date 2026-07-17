@@ -8,7 +8,7 @@ Building tools for the agentic AI stack. Wire formats, code intelligence, MCP in
 
 ### GCF (Graph Compact Format)
 
-<a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="65%" alt="GCF"></a>
+<a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
 The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Deployed in 12 production systems including Chrome DevTools MCP. Zero training required.
 
