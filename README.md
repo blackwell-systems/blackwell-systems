@@ -10,7 +10,7 @@ Building tools for the agentic AI stack. Wire formats, code intelligence, MCP in
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-infographic.png" width="50%" alt="GCF"></a>
 
-The AI-native wire format for structured data. 100% comprehension on every frontier model. 53-71% fewer tokens than JSON, 25.5% fewer than TOON. 1,700+ LLM evaluations across 10+ models and 3 providers. 23B+ lossless round-trips across 5 formats. Zero training required.
+The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Deployed in 12 production systems including Chrome DevTools MCP. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C400%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -61,16 +61,30 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 
 ### Research
 
+9 published papers. A research program on tokenizer-attention coupling proving that BPE merge decisions permanently constrain transformer attention capacity, plus systems work on distributed convergence and memory reclamation.
+
+**Tokenizer-Attention Coupling** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20925910-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20925910)
+How BPE merge decisions permanently shape transformer internal organization. 43 tokenizers, 20 providers. Controlled experiment: identical models, different tokenizer. Merge barriers produce 3-738x better structured data comprehension, zero natural language cost. 18-phase causal ablation across 2 architectures, 2 scales, 3 domains.
+
+**Stranded Attention** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21158886-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21158886)
+A previously undescribed failure mode: every attention head in a standard BPE model has structural capacity the tokenizer permanently prevents. All 384 heads at 410M and 768 at 1.3B show 4x more delimiter attention under clean boundaries. The 40pp frustration gap appears by step 5,000 and never closes.
+
+**Developmental Atlas of Attention Head Specialization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21205389-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21205389)
+First head-specialization atlas at scale: 384 heads, 7 behaviors, 131 checkpoints, 7 runs, 2 architectures. The BPE capacity tax is architecture-independent (+64.3% NeoX, +67.0% Llama). 48-56% of attention capacity in standard BPE is non-productive.
+
+**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20810588-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20810588)
+Cross-tokenizer analysis across 8 tokenizers, 6 providers. JSON field names fuse with the opening quote on 50-63% of tokenizers. JSON boundary merge rate 8.93% vs 1.00% for pipe; TOON tab 59.82%. JSON overhead reaches 81% at 500 rows.
+
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-The AI-native wire format for structured data. 1,700+ evaluations across 10+ models and 3 providers. 23B+ lossless round-trips. Spec v3.1 Stable.
+The AI-native wire format for structured data. 2,500+ evaluations across 11 models and 4 providers. 43B+ lossless round-trips. Deployed in 12 production systems. Spec v3.2 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
-**The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342254-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342254)
-Content-addressing as a computation primitive for software relationship intelligence.
+**The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)
+Content-addressing as a computation primitive for software relationship intelligence. 2.75x more precise than GitNexus (p=0.0003), 193x faster indexing on enterprise repos.
 [Explore the project](https://github.com/blackwell-systems/knowing) · [merkle-strata](https://github.com/blackwell-systems/merkle-strata)
 
 **Memory Drainability** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18653776-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18653776)
-Formalizes when coarse-grained allocators can reclaim memory. Validated on Redis: 50% key deletion freed 195K objects, reclaimed 0 slabs.
+Formalizes when coarse-grained allocators can reclaim memory. Proves a sharp O(1) vs Ω(t) dichotomy for bounded retention. Validated empirically (238x recycle-rate differential).
 [Explore the project](https://github.com/blackwell-systems/drainability)
 
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
@@ -84,21 +98,22 @@ Multi-organizational convergence through morphism validity preservation over acy
 
 ### Upstream Contributions
 
-27 merged PRs. #6 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (8.7K stars).
+33 merged PRs across 32 organizations. #6 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (8.7K stars).
 Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport bugs.
 
 | Organization | What | Stars |
 |:---|:---|---:|
+| **Google** | Chrome DevTools MCP (GCF format), go-containerregistry | 47K |
 | **Anthropic** | MCP Go, Python, PHP SDKs + servers | 85K+ |
-| **Google** | go-containerregistry (OCI artifact fix) | 3.8K |
-| **GitHub** | github-mcp-server | 16K |
-| **Grafana** | mcp-grafana (3 PRs merged) | 2.9K |
 | **LangChain** | langchain (text splitter fix) | 136K |
-| **Stretchr** | testify (suite panic fix) | 26K |
 | **etcd** | CNCF (gRPC error code fix) | 51K |
 | **Charmbracelet** | bubbletea, huh | 42K |
+| **GitHub** | github-mcp-server | 16K |
+| **HashiCorp** | terraform-provider-aws (GovCloud fix) | 10.9K |
+| **pypa** | pip (locale encoding fix) | 10.2K |
 | **mark3labs** | mcp-go SDK (9 PRs, #6 contributor) | 8.7K |
 | **Ant Group** | mcp-server-chart (9 bug fixes) | 4K |
+| **Grafana** | mcp-grafana (3 PRs merged) | 2.9K |
 
 [Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
 
