@@ -45,6 +45,17 @@ Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upst
 
 Self-adapting code intelligence engine. The system GCF was extracted from. 28 MCP tools, graph-native analysis, session deduplication.
 
+### polywave
+
+<a href="https://github.com/blackwell-systems/polywave"><img src="https://raw.githubusercontent.com/blackwell-systems/polywave/main/assets/social-preview.png" width="50%" alt="polywave"></a>
+
+Parallel AI agent coordination. Disjoint file ownership, git worktree isolation, tier-gated execution, and human-reviewed plans. A Scout agent maps the codebase into a coordination plan; Wave agents implement their assigned files simultaneously.
+
+[Protocol](https://github.com/blackwell-systems/polywave-protocol) ·
+[Claude Code](https://github.com/blackwell-systems/polywave) ·
+[Codex](https://github.com/blackwell-systems/polywave-codex) ·
+[Go](https://github.com/blackwell-systems/polywave-go)
+
 ### GCP Emulator Suite
 
 Local implementations of Google Cloud APIs for development and CI. No GCP credentials required.
