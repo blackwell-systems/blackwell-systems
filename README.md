@@ -1,8 +1,8 @@
 [![Blackwell Systems™](https://raw.githubusercontent.com/blackwell-systems/blackwell-docs-theme/main/badge-trademark.svg)](https://github.com/blackwell-systems) [![Stars](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/blackwell-systems/blackwell-systems/main/stars-badge.json)](https://github.com/blackwell-systems)
 
-## AI Infrastructure & Systems Engineering
+## Blackwell Systems — building the agentic stack, publishing the proof
 
-Building tools for the agentic AI stack. Durable agents, wire formats, code intelligence, MCP infrastructure, conformance testing.
+Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack runs on, and ship the evidence to back it: durable agents, wire formats, code intelligence, MCP tooling, and conformance testing, with the research underneath. Independent, evidence-first.
 
 ---
 
@@ -13,7 +13,7 @@ Building tools for the agentic AI stack. Durable agents, wire formats, code inte
 The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Deployed in 20 production systems including Chrome DevTools MCP. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
-[![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C400%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
+[![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
 [![Playground](https://img.shields.io/badge/playground-live-2563eb?style=for-the-badge)](https://gcformat.com/playground.html)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 
@@ -24,6 +24,7 @@ The AI-native wire format for structured data. 100% comprehension on every front
 [Rust](https://github.com/blackwell-systems/gcf-rust) ·
 [Swift](https://github.com/blackwell-systems/gcf-swift) ·
 [Kotlin](https://github.com/blackwell-systems/gcf-kotlin) ·
+[.NET](https://github.com/blackwell-systems/gcf-dotnet) ·
 [Proxy](https://github.com/blackwell-systems/gcf-proxy) ·
 [Tree-sitter](https://github.com/blackwell-systems/tree-sitter-gcf)
 
@@ -113,7 +114,7 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 
 ### Research
 
-9 published papers. A research program on tokenizer-attention coupling proving that BPE merge decisions permanently constrain transformer attention capacity, plus systems work on distributed convergence and memory reclamation.
+9 self-published papers (Zenodo DOIs), several with industry response. A research program on tokenizer-attention coupling proving that BPE merge decisions permanently constrain transformer attention capacity, plus systems work on distributed convergence and memory reclamation.
 
 **Tokenizer-Attention Coupling** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20925910-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20925910)
 How BPE merge decisions permanently shape transformer internal organization. 43 tokenizers, 20 providers. Controlled experiment: identical models, different tokenizer. Merge barriers produce 3-738x better structured data comprehension, zero natural language cost. 18-phase causal ablation across 2 architectures, 2 scales, 3 domains.
@@ -150,7 +151,7 @@ Multi-organizational convergence through morphism validity preservation over acy
 
 ### Upstream Contributions
 
-33 merged PRs across 32 organizations. #6 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (8.7K stars).
+40+ merged PRs across the ecosystem. #6 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (8.7K stars).
 Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport bugs.
 
 | Organization | What | Stars |
@@ -158,7 +159,7 @@ Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport
 | **Google** | Chrome DevTools MCP (GCF format), go-containerregistry | 47K |
 | **Anthropic** | MCP Go, Python, PHP SDKs + servers | 85K+ |
 | **LangChain** | langchain (text splitter fix) | 136K |
-| **etcd** | CNCF (gRPC error code fix) | 51K |
+| **etcd** | CNCF gRPC error code fix (in review) | 51K |
 | **Charmbracelet** | bubbletea, huh | 42K |
 | **GitHub** | github-mcp-server | 16K |
 | **HashiCorp** | terraform-provider-aws (GovCloud fix) | 10.9K |
