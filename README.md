@@ -51,11 +51,19 @@ A full framework for building AI agents in Go: models (OpenAI, Anthropic, Gemini
 
 Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format.
 
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+[![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/blackwell-systems/agent-lsp?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/agent-lsp/stargazers)
+
 ### mcp-assert
 
 <a href="https://github.com/blackwell-systems/mcp-assert"><img src="https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png" width="50%" alt="mcp-assert"></a>
 
 Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation.
+
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+[![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/blackwell-systems/mcp-assert?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/mcp-assert/stargazers)
 
 ### knowing
 
@@ -63,11 +71,18 @@ Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upst
 
 Self-adapting code intelligence engine. The system GCF was extracted from. 28 MCP tools, graph-native analysis, session deduplication.
 
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+[![License](https://img.shields.io/github/license/blackwell-systems/knowing?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/knowing/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/blackwell-systems/knowing?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/knowing/stargazers)
+
 ### polywave
 
 <a href="https://github.com/blackwell-systems/polywave"><img src="https://raw.githubusercontent.com/blackwell-systems/polywave/main/assets/social-preview.png" width="50%" alt="polywave"></a>
 
 Parallel AI agent coordination. Disjoint file ownership, git worktree isolation, tier-gated execution, and human-reviewed plans. A Scout agent maps the codebase into a coordination plan; Wave agents implement their assigned files simultaneously.
+
+[![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/blackwell-systems/polywave)
+[![Stars](https://img.shields.io/github/stars/blackwell-systems/polywave?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/polywave/stargazers)
 
 [Protocol](https://github.com/blackwell-systems/polywave-protocol) ·
 [Claude Code](https://github.com/blackwell-systems/polywave) ·
@@ -80,9 +95,16 @@ Parallel AI agent coordination. Disjoint file ownership, git worktree isolation,
 
 Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enums, maps, and validation rules compile to runtime-checked Zod schemas; opt-in json-tag inference bridges plain types. Built for Wails and web frontends. Apache-2.0.
 
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-2563eb?style=for-the-badge)](https://github.com/blackwell-systems/goldenthread)
+[![Stars](https://img.shields.io/github/stars/blackwell-systems/goldenthread?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/goldenthread/stargazers)
+
 ### GCP Emulator Suite
 
 Local implementations of Google Cloud APIs for development and CI. No GCP credentials required.
+
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
+[![License](https://img.shields.io/badge/license-Apache--2.0-2563eb?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
 
 [Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator) (50K+ downloads) ·
 [KMS](https://github.com/blackwell-systems/gcp-kms-emulator) ·
