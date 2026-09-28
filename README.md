@@ -1,6 +1,6 @@
 [![Blackwell Systems™](https://raw.githubusercontent.com/blackwell-systems/blackwell-docs-theme/main/badge-trademark.svg)](https://github.com/blackwell-systems) [![Stars](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/blackwell-systems/blackwell-systems/main/stars-badge.json)](https://github.com/blackwell-systems)
 
-## Blackwell Systems — building the agentic stack, publishing the proof
+## Blackwell Systems: building the agentic stack, publishing the proof
 
 Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack runs on, and ship the evidence to back it: durable agents, wire formats, code intelligence, MCP tooling, and conformance testing, with the research underneath. Independent, evidence-first.
 
@@ -12,9 +12,9 @@ Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack r
 
 The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Deployed in 20 production systems including Chrome DevTools MCP. Zero training required.
 
-[![Spec](https://img.shields.io/badge/spec-gcformat.com-2563eb?style=for-the-badge)](https://gcformat.com)
+[![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
-[![Playground](https://img.shields.io/badge/playground-live-2563eb?style=for-the-badge)](https://gcformat.com/playground.html)
+[![Playground](https://img.shields.io/badge/playground-live-6fa2c9?style=for-the-badge)](https://gcformat.com/playground.html)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
 
 [Spec](https://github.com/blackwell-systems/gcf) ·
@@ -53,7 +53,7 @@ A full framework for building AI agents in Go: models (OpenAI, Anthropic, Gemini
 Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
 
 ### mcp-assert
 
@@ -62,7 +62,7 @@ Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languag
 Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
 
 ### knowing
 
@@ -71,7 +71,7 @@ Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upst
 Self-adapting code intelligence engine. The system GCF was extracted from. 28 MCP tools, graph-native analysis, session deduplication.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![License](https://img.shields.io/github/license/blackwell-systems/knowing?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/knowing/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/blackwell-systems/knowing?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/knowing/blob/main/LICENSE)
 
 ### polywave
 
@@ -93,14 +93,14 @@ Parallel AI agent coordination. Disjoint file ownership, git worktree isolation,
 Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enums, maps, and validation rules compile to runtime-checked Zod schemas; opt-in json-tag inference bridges plain types. Built for Wails and web frontends. Apache-2.0.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-2563eb?style=for-the-badge)](https://github.com/blackwell-systems/goldenthread)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/goldenthread)
 
 ### GCP Emulator Suite
 
 Local implementations of Google Cloud APIs for development and CI. No GCP credentials required.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![License](https://img.shields.io/badge/license-Apache--2.0-2563eb?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
 
 [Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator) (50K+ downloads) ·
 [KMS](https://github.com/blackwell-systems/gcp-kms-emulator) ·
@@ -192,16 +192,16 @@ Platforms & Shells:
 
 Developer Tooling:
 
-![Git](https://img.shields.io/badge/Git-%F0%9F%94%A7-292c34?logo=git&logoColor=f41c80&style=for-the-badge)
-![Terraform](https://img.shields.io/badge/Terraform-292c34?logo=terraform&logoColor=f41c80&style=for-the-badge)
-![AWS%20CDK](https://img.shields.io/badge/AWS%20CDK-292c34?logo=amazonaws&logoColor=f41c80&style=for-the-badge)
-![Datadog](https://img.shields.io/badge/Datadog-292c34?logo=datadog&logoColor=f41c80&style=for-the-badge)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-292c34?logo=opentelemetry&logoColor=f41c80&style=for-the-badge)
-![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-292c34?logo=docker&logoColor=f41c80&style=for-the-badge)
-![GCP](https://img.shields.io/badge/Google%20Cloud-292c34?logo=googlecloud&logoColor=f41c80&style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-%F0%9F%94%A7-292c34?logo=git&logoColor=6fa2c9&style=for-the-badge)
+![Terraform](https://img.shields.io/badge/Terraform-292c34?logo=terraform&logoColor=6fa2c9&style=for-the-badge)
+![AWS%20CDK](https://img.shields.io/badge/AWS%20CDK-292c34?logo=amazonaws&logoColor=6fa2c9&style=for-the-badge)
+![Datadog](https://img.shields.io/badge/Datadog-292c34?logo=datadog&logoColor=6fa2c9&style=for-the-badge)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-292c34?logo=opentelemetry&logoColor=6fa2c9&style=for-the-badge)
+![Containers](https://img.shields.io/badge/Containers-%F0%9F%90%B3%20Docker-292c34?logo=docker&logoColor=6fa2c9&style=for-the-badge)
+![GCP](https://img.shields.io/badge/Google%20Cloud-292c34?logo=googlecloud&logoColor=6fa2c9&style=for-the-badge)
 
 Artificial Intelligence:
 
-[![GPT](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-292c34?logo=openai&logoColor=f41c80&style=for-the-badge)](https://openai.com/)
-[![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-292c34?logo=anthropic&logoColor=f41c80&style=for-the-badge)](https://www.anthropic.com/)
-[![Gemini](https://img.shields.io/badge/Gemini-%E2%9C%A8%20Google-292c34?logo=googlegemini&logoColor=f41c80&style=for-the-badge)](https://deepmind.google/technologies/gemini/)
+[![GPT](https://img.shields.io/badge/GPT-%F0%9F%A4%96%20OpenAI-292c34?logo=openai&logoColor=6fa2c9&style=for-the-badge)](https://openai.com/)
+[![Claude](https://img.shields.io/badge/Claude-%F0%9F%A7%A0%20Anthropic-292c34?logo=anthropic&logoColor=6fa2c9&style=for-the-badge)](https://www.anthropic.com/)
+[![Gemini](https://img.shields.io/badge/Gemini-%E2%9C%A8%20Google-292c34?logo=googlegemini&logoColor=6fa2c9&style=for-the-badge)](https://deepmind.google/technologies/gemini/)
