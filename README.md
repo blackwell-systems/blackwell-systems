@@ -8,7 +8,7 @@ Building tools for the agentic AI stack. Durable agents, wire formats, code inte
 
 ### GCF (Graph Compact Format)
 
-<a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
+<a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="50%" alt="GCF"></a>
 
 The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Deployed in 20 production systems including Chrome DevTools MCP. Zero training required.
 
@@ -29,7 +29,7 @@ The AI-native wire format for structured data. 100% comprehension on every front
 
 ### bide
 
-<a href="https://github.com/bide-ai/bide"><img src="https://raw.githubusercontent.com/bide-ai/bide/main/assets/bide-banner.png" width="75%" alt="bide"></a>
+<a href="https://github.com/bide-ai/bide"><img src="https://raw.githubusercontent.com/bide-ai/bide/main/assets/bide-social.png" width="50%" alt="bide"></a>
 
 Build durable AI agents in Go. Side effects that fire at most once. One append-only journal yields at-most-once execution, halt-on-ambiguity, an offline-verifiable Merkle audit trail, and machine-checked convergence. Apache-2.0, Go 1.27.
 
@@ -64,7 +64,7 @@ Parallel AI agent coordination. Disjoint file ownership, git worktree isolation,
 
 ### goldenthread
 
-<a href="https://github.com/blackwell-systems/goldenthread"><img src="https://raw.githubusercontent.com/blackwell-systems/goldenthread/main/asset-banner.png" width="75%" alt="goldenthread"></a>
+<a href="https://github.com/blackwell-systems/goldenthread"><img src="https://raw.githubusercontent.com/blackwell-systems/goldenthread/main/asset-banner-social.jpg" width="50%" alt="goldenthread"></a>
 
 Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enums, maps, and validation rules compile to runtime-checked Zod schemas; opt-in json-tag inference bridges plain types. Built for Wails and web frontends. Apache-2.0.
 
