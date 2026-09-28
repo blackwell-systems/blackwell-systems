@@ -53,7 +53,6 @@ Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languag
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
-[![Stars](https://img.shields.io/github/stars/blackwell-systems/agent-lsp?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/agent-lsp/stargazers)
 
 ### mcp-assert
 
@@ -63,7 +62,6 @@ Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upst
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
-[![Stars](https://img.shields.io/github/stars/blackwell-systems/mcp-assert?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/mcp-assert/stargazers)
 
 ### knowing
 
@@ -73,7 +71,6 @@ Self-adapting code intelligence engine. The system GCF was extracted from. 28 MC
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/knowing?style=for-the-badge&color=2563eb)](https://github.com/blackwell-systems/knowing/blob/main/LICENSE)
-[![Stars](https://img.shields.io/github/stars/blackwell-systems/knowing?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/knowing/stargazers)
 
 ### polywave
 
@@ -82,7 +79,6 @@ Self-adapting code intelligence engine. The system GCF was extracted from. 28 MC
 Parallel AI agent coordination. Disjoint file ownership, git worktree isolation, tier-gated execution, and human-reviewed plans. A Scout agent maps the codebase into a coordination plan; Wave agents implement their assigned files simultaneously.
 
 [![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/blackwell-systems/polywave)
-[![Stars](https://img.shields.io/github/stars/blackwell-systems/polywave?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/polywave/stargazers)
 
 [Protocol](https://github.com/blackwell-systems/polywave-protocol) ·
 [Claude Code](https://github.com/blackwell-systems/polywave) ·
@@ -97,7 +93,6 @@ Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enu
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-2563eb?style=for-the-badge)](https://github.com/blackwell-systems/goldenthread)
-[![Stars](https://img.shields.io/github/stars/blackwell-systems/goldenthread?style=for-the-badge&color=22c55e&logo=github&logoColor=white)](https://github.com/blackwell-systems/goldenthread/stargazers)
 
 ### GCP Emulator Suite
 
