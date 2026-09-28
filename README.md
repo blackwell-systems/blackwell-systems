@@ -2,7 +2,7 @@
 
 ## AI Infrastructure & Systems Engineering
 
-Building tools for the agentic AI stack. Wire formats, code intelligence, MCP infrastructure, conformance testing.
+Building tools for the agentic AI stack. Durable agents, wire formats, code intelligence, MCP infrastructure, conformance testing.
 
 ---
 
@@ -26,6 +26,12 @@ The AI-native wire format for structured data. 100% comprehension on every front
 [Kotlin](https://github.com/blackwell-systems/gcf-kotlin) ·
 [Proxy](https://github.com/blackwell-systems/gcf-proxy) ·
 [Tree-sitter](https://github.com/blackwell-systems/tree-sitter-gcf)
+
+### bide
+
+<a href="https://github.com/bide-ai/bide"><img src="https://raw.githubusercontent.com/bide-ai/bide/main/assets/bide-banner.png" width="75%" alt="bide"></a>
+
+Build durable AI agents in Go. Side effects that fire at most once. One append-only journal yields at-most-once execution, halt-on-ambiguity, an offline-verifiable Merkle audit trail, and machine-checked convergence. Apache-2.0, Go 1.27.
 
 ### agent-lsp
 
@@ -55,6 +61,12 @@ Parallel AI agent coordination. Disjoint file ownership, git worktree isolation,
 [Claude Code](https://github.com/blackwell-systems/polywave) ·
 [Codex](https://github.com/blackwell-systems/polywave-codex) ·
 [Go](https://github.com/blackwell-systems/polywave-go)
+
+### goldenthread
+
+<a href="https://github.com/blackwell-systems/goldenthread"><img src="https://raw.githubusercontent.com/blackwell-systems/goldenthread/main/asset-banner.png" width="75%" alt="goldenthread"></a>
+
+Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enums, maps, and validation rules compile to runtime-checked Zod schemas; opt-in json-tag inference bridges plain types. Built for Wails and web frontends. Apache-2.0.
 
 ### GCP Emulator Suite
 
