@@ -31,7 +31,19 @@ The AI-native wire format for structured data. 100% comprehension on every front
 
 <a href="https://github.com/bide-ai/bide"><img src="https://raw.githubusercontent.com/bide-ai/bide/main/assets/bide-social.png" width="50%" alt="bide"></a>
 
-Build durable AI agents in Go. Side effects that fire at most once. One append-only journal yields at-most-once execution, halt-on-ambiguity, an offline-verifiable Merkle audit trail, and machine-checked convergence. Apache-2.0, Go 1.27.
+A full framework for building AI agents in Go: models (OpenAI, Anthropic, Gemini), tools, typed multi-step flows, memory and RAG, MCP, multi-agent coordination, and typed human-in-the-loop, all on one durable, append-only journal. The journal is the difference: side effects fire at most once (a resumed run never re-charges a card or re-sends an email), thousands of concurrent runs survive crashes and node handoffs in a single process with no cluster, every run emits a cryptographically verifiable audit trail (RFC 6962 Merkle proofs, checkable without trusting the vendor), and shared governed state is provably convergent. Built for ambient agents that run unattended and act under audit.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/bide-ai/bide/ci.yml?style=for-the-badge&label=CI)](https://github.com/bide-ai/bide/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=for-the-badge)](https://github.com/bide-ai/bide/blob/main/LICENSE)
+[![Go](https://img.shields.io/badge/Go-1.27-00ADD8?style=for-the-badge&logo=go)](https://go.dev)
+[![Status](https://img.shields.io/badge/status-working%20v0-22c55e?style=for-the-badge)](https://github.com/bide-ai/bide)
+
+[Getting started](https://github.com/bide-ai/bide/blob/main/docs/getting-started.md) ·
+[Concepts](https://github.com/bide-ai/bide/blob/main/docs/CONCEPTS.md) ·
+[Flows](https://github.com/bide-ai/bide/blob/main/docs/guides/flows.md) ·
+[Governance](https://github.com/bide-ai/bide/blob/main/docs/guides/governance.md) ·
+[Audit](https://github.com/bide-ai/bide/blob/main/docs/guides/audit.md) ·
+[Security model](https://github.com/bide-ai/bide/blob/main/docs/guides/security-model.md)
 
 ### agent-lsp
 
