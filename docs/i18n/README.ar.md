@@ -147,7 +147,7 @@
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
 
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
-تقارب بلا تنسيق عبر تعويض مُؤسَّس على نحوٍ سليم. نظام التقارب الثالث إلى جانب CRDTs والتقارب الثابت (invariant confluence).
+تقارب بلا تنسيق عبر تعويض مُؤسَّس على نحوٍ سليم. إلى جانب CRDTs والتقارب الثابت (invariant confluence): قد تتعارض العمليات وتكسر الثوابت، ومع ذلك يمكن أن تتقارب النسخ عندما يعيد إصلاحٌ منتهٍ الثوابتَ إلى حالها.
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)

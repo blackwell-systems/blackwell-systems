@@ -147,7 +147,7 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
 
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
-सुस्थापित क्षतिपूर्ति के माध्यम से समन्वय-मुक्त अभिसरण। CRDT और इन्वेरिएंट कॉन्फ़्लुएंस के साथ-साथ तीसरा अभिसरण नियम।
+सुस्थापित क्षतिपूर्ति के माध्यम से समन्वय-मुक्त अभिसरण। CRDT और इन्वेरिएंट कॉन्फ़्लुएंस के साथ: ऑपरेशन आपस में टकरा सकते हैं और इन्वेरिएंट तोड़ सकते हैं, फिर भी रेप्लिका अभिसरित हो सकती हैं जब समाप्त होने वाला रिपेयर इन्वेरिएंट बहाल कर देता है।
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)

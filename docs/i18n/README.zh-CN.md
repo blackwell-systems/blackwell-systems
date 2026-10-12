@@ -147,7 +147,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
 
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
-通过良基补偿实现无需协调的收敛。继 CRDT 与不变量合流之后的第三种收敛范式。
+通过良基补偿实现无需协调的收敛。与 CRDT 和不变量合流并列：操作可以相互冲突并破坏不变量，只要一个必然终止的修复过程将其恢复，副本仍可收敛。
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)

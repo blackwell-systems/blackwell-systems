@@ -147,7 +147,7 @@ AI-нативный формат передачи структурированн
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
 
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
-Сходимость без координации через вполне обоснованную компенсацию. Третий режим сходимости наряду с CRDT и инвариантной конфлюэнтностью.
+Сходимость без координации через вполне обоснованную компенсацию. Рядом с CRDT и инвариантной конфлюэнтностью: операции могут конфликтовать и нарушать инварианты, и реплики всё же могут сойтись, когда завершающийся процесс восстановления возвращает инварианты.
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
