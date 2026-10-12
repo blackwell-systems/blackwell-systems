@@ -116,7 +116,7 @@
 
 ### البحث
 
-9 أوراق منشورة ذاتيًا (معرّفات Zenodo DOI)، عدد منها حظي باستجابة من الصناعة. برنامج بحثي حول اقتران المُرمِّز والانتباه يُثبت أن قرارات دمج BPE تُقيّد سعة انتباه المُحوِّل بصورة دائمة، إضافةً إلى أعمال أنظمة حول التقارب الموزَّع واسترجاع الذاكرة.
+11 ورقة منشورة ذاتيًا (معرّفات Zenodo DOI)، عدد منها حظي باستجابة من الصناعة. برنامج بحثي حول اقتران المُرمِّز والانتباه يُثبت أن قرارات دمج BPE تُقيّد سعة انتباه المُحوِّل بصورة دائمة، إضافةً إلى أعمال أنظمة حول التقارب الموزَّع واسترجاع الذاكرة.
 
 **Tokenizer-Attention Coupling** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20925910-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20925910)
 كيف تُشكّل قرارات دمج BPE التنظيم الداخلي للمُحوِّل بصورة دائمة. 43 مُرمِّزًا، و20 مزوّدًا. تجربة مضبوطة: نماذج متطابقة، ومُرمِّز مختلف. تُنتج حواجز الدمج فهمًا للبيانات المُهيكلة أفضل بمقدار 3-738 ضعفًا، دون أي كلفة على اللغة الطبيعية. استئصال سببي من 18 مرحلة عبر بنيتين ومقياسين و3 مجالات.
@@ -142,12 +142,19 @@
 يُصوغ رسميًا متى يمكن للمُخصِّصات الخشنة التحبّب أن تسترجع الذاكرة. يُثبت انقسامًا حادًا بين O(1) وΩ(t) للاحتفاظ المحدود. جرى التحقق منه تجريبيًا (فارق في معدل إعادة التدوير يبلغ 238 ضعفًا).
 [Explore the project](https://github.com/blackwell-systems/drainability)
 
+**Normalization Confluence: An Exact, Mechanized Theory of When Repair Can Replace Commutativity** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311489-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311489)
+متى يمكن للإصلاح أن يحل محل التبادلية؟ شروط دقيقة على ثلاثة مستويات مع تسلسل هرمي مُثبت بينها، ينظمها إطار من ثلاث طبقات في أطلس يضم 60 حالة. اختُبر حيث كان يمكن أن يفشل: مع تجميد الإطار استُعيد الاستقرار الذاتي لدايكسترا والتقارب الثابت (invariant confluence)، وتأكد تنبؤان سُجّلا مسبقًا، أحدهما عن النسخ المتماثل في CouchDB/PouchDB (أُبلغ عنه للمطورين). 4,797 نتيجة متحقَّق منها آليًا في Coq، دون أي مسلّمات.
+[Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
+
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
 تقارب بلا تنسيق عبر تعويض مُؤسَّس على نحوٍ سليم. نظام التقارب الثالث إلى جانب CRDTs والتقارب الثابت (invariant confluence).
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
 تقارب متعدد المؤسسات عبر الحفاظ على صلاحية التشاكل (morphism) فوق شبكات لا دورية.
+
+**The Categorical Structure of Federated Convergence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311468-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311468)
+الحالات المتسقة للاتحاد بوصفها نهاية محدودة، واللصق عبر الاتحادات الفرعية، والعائق على الدورات بوصفه هولونومية. الحد الأدنى الدقيق للتنسيق مسألة NP-صعبة وقابلة للحل بمعامل ثابت في حجم النواة المنسَّقة. النتائج البنيوية مُتحقَّق منها آليًا في Coq.
 
 ---
 

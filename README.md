@@ -116,7 +116,7 @@ Local implementations of Google Cloud APIs for development and CI. No GCP creden
 
 ### Research
 
-9 self-published papers (Zenodo DOIs), several with industry response. A research program on tokenizer-attention coupling proving that BPE merge decisions permanently constrain transformer attention capacity, plus systems work on distributed convergence and memory reclamation.
+11 self-published papers (Zenodo DOIs), several with industry response. A research program on tokenizer-attention coupling proving that BPE merge decisions permanently constrain transformer attention capacity, plus systems work on distributed convergence and memory reclamation.
 
 **Tokenizer-Attention Coupling** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20925910-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20925910)
 How BPE merge decisions permanently shape transformer internal organization. 43 tokenizers, 20 providers. Controlled experiment: identical models, different tokenizer. Merge barriers produce 3-738x better structured data comprehension, zero natural language cost. 18-phase causal ablation across 2 architectures, 2 scales, 3 domains.
@@ -142,12 +142,19 @@ Content-addressing as a computation primitive for software relationship intellig
 Formalizes when coarse-grained allocators can reclaim memory. Proves a sharp O(1) vs Ω(t) dichotomy for bounded retention. Validated empirically (238x recycle-rate differential).
 [Explore the project](https://github.com/blackwell-systems/drainability)
 
+**Normalization Confluence: An Exact, Mechanized Theory of When Repair Can Replace Commutativity** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311489-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311489)
+When can repair replace commutativity? Exact conditions at three scales with a proved hierarchy, organized by a three-layer framework into a 60-regime atlas. Tested where it could fail: Dijkstra's self-stabilization and invariant confluence recovered with the framework frozen, and two preregistered predictions confirmed, one on CouchDB/PouchDB replication (reported upstream). 4,797 results machine-checked in Coq, no axioms.
+[Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
+
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
 Coordination-free convergence via well-founded compensation. Third convergence regime alongside CRDTs and invariant confluence.
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
 Multi-organizational convergence through morphism validity preservation over acyclic networks.
+
+**The Categorical Structure of Federated Convergence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311468-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311468)
+A federation's consistent states as a finite limit, gluing over sub-federations, and the obstruction on cycles as holonomy. The exact minimum coordination is NP-hard and fixed-parameter tractable in the size of the coordinated core. Structural results mechanized in Coq.
 
 ---
 

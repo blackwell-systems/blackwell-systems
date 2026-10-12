@@ -116,7 +116,7 @@
 
 ### 研究
 
-9 篇自主发表的论文（Zenodo DOI），其中数篇已获得业界回应。一项关于 tokenizer 与注意力耦合的研究计划，证明了 BPE 合并决策会永久性地约束 transformer 的注意力容量，另有关于分布式收敛与内存回收的系统性工作。
+11 篇自主发表的论文（Zenodo DOI），其中数篇已获得业界回应。一项关于 tokenizer 与注意力耦合的研究计划，证明了 BPE 合并决策会永久性地约束 transformer 的注意力容量，另有关于分布式收敛与内存回收的系统性工作。
 
 **Tokenizer-Attention Coupling** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20925910-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20925910)
 BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 tokenizer，20 家提供商。受控实验：相同模型，不同 tokenizer。合并屏障带来 3-738 倍更强的结构化数据理解能力，且自然语言方面零代价。跨 2 种架构、2 种规模、3 个领域的 18 阶段因果消融。
@@ -142,12 +142,19 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 形式化了粗粒度分配器何时可回收内存。证明了有界保留下 O(1) 与 Ω(t) 之间的一道清晰分界。已经实证验证（238 倍的回收率差异）。
 [Explore the project](https://github.com/blackwell-systems/drainability)
 
+**Normalization Confluence: An Exact, Mechanized Theory of When Repair Can Replace Commutativity** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311489-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311489)
+何时修复可以替代交换性？在三个尺度上给出精确条件及经过证明的层级关系，并由三层框架组织成涵盖 60 种情形的图谱。在可能失败之处接受检验：在框架冻结的情况下复现了 Dijkstra 的自稳定性与不变量合流，两项预先登记的预测均获证实，其中一项关于 CouchDB/PouchDB 复制（已向上游报告）。4,797 条结果在 Coq 中机器验证，不依赖任何公理。
+[Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
+
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
 通过良基补偿实现无需协调的收敛。继 CRDT 与不变量合流之后的第三种收敛范式。
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
 在无环网络上通过态射有效性保持实现多组织收敛。
+
+**The Categorical Structure of Federated Convergence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311468-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311468)
+将联邦的一致状态刻画为有限极限，在子联邦上进行粘合，并将环上的障碍刻画为和乐（holonomy）。精确的最小协调问题是 NP 困难的，并且以被协调核心的规模为参数是固定参数可解的。结构性结果在 Coq 中机械化验证。
 
 ---
 

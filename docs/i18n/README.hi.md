@@ -116,7 +116,7 @@ Go स्ट्रक्ट से TypeScript और Zod तक, सत्य �
 
 ### शोध
 
-9 स्व-प्रकाशित पेपर (Zenodo DOI), जिनमें से कई को उद्योग की प्रतिक्रिया मिली। टोकनाइज़र-अटेंशन युग्मन पर एक शोध कार्यक्रम, जो सिद्ध करता है कि BPE मर्ज निर्णय ट्रांसफ़ॉर्मर की अटेंशन क्षमता को स्थायी रूप से सीमित करते हैं, साथ ही वितरित अभिसरण और मेमोरी पुनर्ग्रहण पर सिस्टम्स कार्य।
+11 स्व-प्रकाशित पेपर (Zenodo DOI), जिनमें से कई को उद्योग की प्रतिक्रिया मिली। टोकनाइज़र-अटेंशन युग्मन पर एक शोध कार्यक्रम, जो सिद्ध करता है कि BPE मर्ज निर्णय ट्रांसफ़ॉर्मर की अटेंशन क्षमता को स्थायी रूप से सीमित करते हैं, साथ ही वितरित अभिसरण और मेमोरी पुनर्ग्रहण पर सिस्टम्स कार्य।
 
 **Tokenizer-Attention Coupling** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20925910-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20925910)
 BPE मर्ज निर्णय किस तरह ट्रांसफ़ॉर्मर के आंतरिक संगठन को स्थायी रूप से आकार देते हैं। 43 टोकनाइज़र, 20 प्रदाता। नियंत्रित प्रयोग: समरूप मॉडल, भिन्न टोकनाइज़र। मर्ज अवरोधक संरचित डेटा की समझ में 3-738 गुना बेहतर परिणाम देते हैं, प्राकृतिक भाषा पर शून्य लागत के साथ। 2 आर्किटेक्चर, 2 स्केल, 3 डोमेन में 18-चरणीय कारणात्मक एब्लेशन।
@@ -142,12 +142,19 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 औपचारिक रूप से परिभाषित करता है कि मोटे-दाने वाले आवंटक कब मेमोरी पुनर्ग्रहित कर सकते हैं। परिबद्ध अवधारण के लिए O(1) बनाम Ω(t) की एक तीव्र द्विभाजिका सिद्ध करता है। अनुभवजन्य रूप से सत्यापित (238 गुना रीसायकल-दर अंतर)।
 [Explore the project](https://github.com/blackwell-systems/drainability)
 
+**Normalization Confluence: An Exact, Mechanized Theory of When Repair Can Replace Commutativity** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311489-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311489)
+रिपेयर कब क्रमविनिमेयता (commutativity) की जगह ले सकता है? तीन स्तरों पर सटीक शर्तें और उनके बीच सिद्ध पदानुक्रम, जिन्हें तीन-परतीय ढाँचा 60 स्थितियों के एटलस में व्यवस्थित करता है। जहाँ यह विफल हो सकता था, वहीं परखा गया: ढाँचे को स्थिर रखकर Dijkstra का self-stabilization और इन्वेरिएंट कॉन्फ़्लुएंस पुनः प्राप्त हुए, और पहले से दर्ज दो भविष्यवाणियाँ सही निकलीं, जिनमें से एक CouchDB/PouchDB रेप्लिकेशन पर है (upstream को रिपोर्ट की गई)। 4,797 परिणाम Coq में मशीन द्वारा जाँचे गए, बिना किसी axiom के।
+[Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
+
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
 सुस्थापित क्षतिपूर्ति के माध्यम से समन्वय-मुक्त अभिसरण। CRDT और इन्वेरिएंट कॉन्फ़्लुएंस के साथ-साथ तीसरा अभिसरण नियम।
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
 अचक्रीय नेटवर्कों पर मॉर्फ़िज़्म वैधता संरक्षण के माध्यम से बहु-संगठनात्मक अभिसरण।
+
+**The Categorical Structure of Federated Convergence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23311468-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.23311468)
+फ़ेडरेशन की सुसंगत अवस्थाएँ एक परिमित सीमा (finite limit) के रूप में, उप-फ़ेडरेशनों पर ग्लूइंग, और चक्रों पर बाधा होलोनॉमी के रूप में। सटीक न्यूनतम समन्वय NP-कठिन है और समन्वित कोर के आकार में fixed-parameter tractable है। संरचनात्मक परिणाम Coq में यांत्रिक रूप से सत्यापित।
 
 ---
 
