@@ -147,7 +147,7 @@ When can repair replace commutativity? Exact conditions at three scales with a p
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence) · [Site](https://blackwell-systems.github.io/normalization-confluence/) · [Engineer's guide](https://blackwell-systems.github.io/normalization-confluence/guide/)
 
 **Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18671870-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18671870)
-Coordination-free convergence via well-founded compensation. Next to CRDTs and invariant confluence: operations may conflict and break invariants, and replicas can still converge when a terminating repair restores them.
+Coordination-free convergence via well-founded compensation. A third convergence regime alongside CRDTs and invariant confluence: operations may conflict and break invariants, and with a terminating repair, replicas converge exactly when two checkable conditions hold.
 [Explore the project](https://github.com/blackwell-systems/normalization-confluence)
 
 **Federated Normalization Confluence** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18677400-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18677400)
