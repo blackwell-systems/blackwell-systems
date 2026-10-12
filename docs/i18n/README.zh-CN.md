@@ -176,6 +176,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 | **mark3labs** | mcp-go SDK（9 个 PR，第 6 号贡献者） | 8.7K |
 | **Ant Group** | mcp-server-chart（9 个缺陷修复） | 4K |
 | **Grafana** | mcp-grafana（3 个已合并 PR） | 2.9K |
+| **Apache** | CouchDB（复制缺陷，已完成诊断并经维护者确认） | 7K |
 
 [Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
 

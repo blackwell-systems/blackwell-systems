@@ -176,6 +176,7 @@
 | **mark3labs** | mcp-go SDK (9 طلبات سحب، المساهم رقم 6) | 8.7K |
 | **Ant Group** | mcp-server-chart (9 إصلاحات لأخطاء) | 4K |
 | **Grafana** | mcp-grafana (3 طلبات سحب مُدمَجة) | 2.9K |
+| **Apache** | CouchDB (خلل في النسخ المتماثل، شُخِّص وأكّده أحد المشرفين) | 7K |
 
 [Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
 

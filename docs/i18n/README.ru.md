@@ -176,6 +176,7 @@ AI-нативный формат передачи структурированн
 | **mark3labs** | mcp-go SDK (9 PR, #6 контрибьютор) | 8.7K |
 | **Ant Group** | mcp-server-chart (9 исправлений багов) | 4K |
 | **Grafana** | mcp-grafana (3 смёрдженных PR) | 2.9K |
+| **Apache** | CouchDB (ошибка репликации, диагностирована и подтверждена мейнтейнером) | 7K |
 
 [Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
 
