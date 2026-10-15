@@ -12,7 +12,7 @@
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-AI-нативный формат передачи структурированных данных. 100% понимания на каждой передовой модели. На 50-92% меньше токенов, чем в JSON. 2500+ оценок LLM на 11 моделях от 4 провайдеров. 43 млрд+ проходов без потерь через 5 форматов. Развёрнут в 20 промышленных системах, включая Chrome DevTools MCP. Обучение не требуется.
+AI-нативный формат передачи структурированных данных. 100% понимания на каждой передовой модели. На 50-92% меньше токенов, чем в JSON. 2500+ оценок LLM на 11 моделях от 4 провайдеров. 43 млрд+ проходов без потерь через 5 форматов. Используется в 32 проектах, включая Chrome DevTools MCP, Opera и OmniRoute (77 тыс. звёзд); кодировщик GCF встроен в OmniRoute, поэтому более 10 000 форков OmniRoute, созданных с тех пор, тоже содержат его. Обучение не требуется.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)

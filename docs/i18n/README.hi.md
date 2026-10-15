@@ -12,7 +12,7 @@
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। हर फ्रंटियर मॉडल पर 100% समझ। JSON की तुलना में 50-92% कम टोकन। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ LLM मूल्यांकन। 5 फ़ॉर्मैटों में 43B+ हानि-रहित राउंड-ट्रिप। Chrome DevTools MCP सहित 20 प्रोडक्शन सिस्टमों में तैनात। किसी प्रशिक्षण की आवश्यकता नहीं।
+संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। हर फ्रंटियर मॉडल पर 100% समझ। JSON की तुलना में 50-92% कम टोकन। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ LLM मूल्यांकन। 5 फ़ॉर्मैटों में 43B+ हानि-रहित राउंड-ट्रिप। Chrome DevTools MCP, Opera और OmniRoute (77K स्टार) सहित 32 प्रोजेक्टों द्वारा अपनाया गया; GCF का एन्कोडर OmniRoute में सीधे शामिल है, इसलिए उसके बाद बने 10,000+ OmniRoute फ़ोर्क्स में भी यह मौजूद है। किसी प्रशिक्षण की आवश्यकता नहीं।
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)

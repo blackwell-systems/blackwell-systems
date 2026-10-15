@@ -12,7 +12,7 @@
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-面向 AI 原生的结构化数据线路格式。在每一款前沿模型上实现 100% 的理解率。相较 JSON 减少 50-92% 的 token。跨 11 个模型、4 家提供商的 2,500+ 次 LLM 评测。跨 5 种格式的 43B+ 次无损往返。已在 20 个生产系统中部署，包括 Chrome DevTools MCP。无需任何训练。
+面向 AI 原生的结构化数据线路格式。在每一款前沿模型上实现 100% 的理解率。相较 JSON 减少 50-92% 的 token。跨 11 个模型、4 家提供商的 2,500+ 次 LLM 评测。跨 5 种格式的 43B+ 次无损往返。已被 32 个项目采用，包括 Chrome DevTools MCP、Opera 和 OmniRoute（77K 星标）；GCF 编码器被直接内置于 OmniRoute，此后创建的 10,000+ 个 OmniRoute 分叉也都携带它。无需任何训练。
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
