@@ -131,7 +131,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 跨 8 个 tokenizer、6 家提供商的分析。JSON 字段名在 50-63% 的 tokenizer 上会与起始引号融合。JSON 边界合并率为 8.93%，而竖线为 1.00%；TOON 制表符为 59.82%。在 500 行时，JSON 开销高达 81%。
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-面向 AI 原生的结构化数据线路格式。跨 11 个模型、4 家提供商的 2,500+ 次评测。43B+ 次无损往返。已在 20 个生产系统中部署。Spec v3.5.1 Stable。
+面向 AI 原生的结构化数据线路格式。跨 11 个模型、4 家提供商的 2,500+ 次评测。43B+ 次无损往返。已被 32 个项目采用。Spec v3.6.0 Stable。
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

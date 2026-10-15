@@ -131,7 +131,7 @@
 تحليل عابر للمُرمِّزات عبر 8 مُرمِّزات و6 مزوّدين. تندمج أسماء حقول JSON مع علامة الاقتباس الافتتاحية على 50-63% من المُرمِّزات. معدل دمج حدود JSON 8.93% مقابل 1.00% للخط العمودي (pipe)؛ وعلامة الجدولة في TOON 59.82%. تبلغ نفقات JSON الإضافية 81% عند 500 صف.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. أكثر من 2,500 تقييم عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان. منشورة في 20 نظامًا إنتاجيًا. Spec v3.5.1 Stable.
+صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. أكثر من 2,500 تقييم عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان. معتمدة في 32 مشروعًا. Spec v3.6.0 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

@@ -131,7 +131,7 @@ First head-specialization atlas at scale: 384 heads, 7 behaviors, 131 checkpoint
 Cross-tokenizer analysis across 8 tokenizers, 6 providers. JSON field names fuse with the opening quote on 50-63% of tokenizers. JSON boundary merge rate 8.93% vs 1.00% for pipe; TOON tab 59.82%. JSON overhead reaches 81% at 500 rows.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-The AI-native wire format for structured data. 2,500+ evaluations across 11 models and 4 providers. 43B+ lossless round-trips. Deployed in 20 production systems. Spec v3.5.1 Stable.
+The AI-native wire format for structured data. 2,500+ evaluations across 11 models and 4 providers. 43B+ lossless round-trips. Adopted by 32 projects. Spec v3.6.0 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

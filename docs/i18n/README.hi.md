@@ -131,7 +131,7 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 8 टोकनाइज़र, 6 प्रदाताओं में क्रॉस-टोकनाइज़र विश्लेषण। JSON फ़ील्ड नाम 50-63% टोकनाइज़रों पर उद्घाटक उद्धरण चिह्न के साथ जुड़ जाते हैं। JSON सीमा मर्ज दर 8.93% बनाम पाइप के लिए 1.00%; TOON टैब 59.82%। JSON ओवरहेड 500 पंक्तियों पर 81% तक पहुँच जाता है।
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ मूल्यांकन। 43B+ हानि-रहित राउंड-ट्रिप। 20 प्रोडक्शन सिस्टमों में तैनात। Spec v3.5.1 Stable।
+संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ मूल्यांकन। 43B+ हानि-रहित राउंड-ट्रिप। 32 प्रोजेक्टों द्वारा अपनाया गया। Spec v3.6.0 Stable।
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)
