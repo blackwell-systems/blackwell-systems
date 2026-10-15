@@ -160,12 +160,12 @@ AI-нативный формат передачи структурированн
 
 ### Вклад в апстрим
 
-40+ смёрдженных PR по всей экосистеме. #6 контрибьютор в [mcp-go](https://github.com/mark3labs/mcp-go) (8.7K звёзд).
+50+ смёрдженных PR в 30+ организациях. #6 контрибьютор в [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K звёзд).
 Исправления повреждения данных, восстановление после паник, укрепление SDK, соответствие спецификациям, баги транспорта.
 
 | Организация | Что | Звёзды |
 |:---|:---|---:|
-| **Google** | Chrome DevTools MCP (формат GCF), go-containerregistry | 47K |
+| **Google** | Chrome DevTools MCP (формат GCF), go-containerregistry | 54K |
 | **Anthropic** | MCP Go, Python, PHP SDK + серверы | 85K+ |
 | **LangChain** | langchain (исправление разбивщика текста) | 136K |
 | **etcd** | Исправление кода ошибки CNCF gRPC (на рассмотрении) | 51K |
@@ -173,7 +173,7 @@ AI-нативный формат передачи структурированн
 | **GitHub** | github-mcp-server | 16K |
 | **HashiCorp** | terraform-provider-aws (исправление GovCloud) | 10.9K |
 | **pypa** | pip (исправление кодировки локали) | 10.2K |
-| **mark3labs** | mcp-go SDK (9 PR, #6 контрибьютор) | 8.7K |
+| **mark3labs** | mcp-go SDK (9 PR, #6 контрибьютор) | 9.2K |
 | **Ant Group** | mcp-server-chart (9 исправлений багов) | 4K |
 | **Grafana** | mcp-grafana (3 смёрдженных PR) | 2.9K |
 | **Apache** | CouchDB (ошибка репликации, диагностирована и подтверждена мейнтейнером) | 7K |
