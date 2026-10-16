@@ -104,7 +104,7 @@
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
 
-[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator)（50K+ 次下载）·
+[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator)（275K+ 次下载）·
 [KMS](https://github.com/blackwell-systems/gcp-kms-emulator) ·
 [IAM](https://github.com/blackwell-systems/gcp-iam-emulator) ·
 [Eventarc](https://github.com/blackwell-systems/gcp-eventarc-emulator) ·
