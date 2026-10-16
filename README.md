@@ -12,7 +12,7 @@ Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack r
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Adopted by 32 projects including Chrome DevTools MCP, Opera and OmniRoute (77K stars), where GCF's encoder is vendored in, so the 10,000+ OmniRoute forks made since carry it too. Zero training required.
+The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Adopted by 32 projects including Chrome DevTools MCP, Opera and OmniRoute (77K stars), where GCF's encoder is vendored in, so the 10,000+ OmniRoute forks made since carry it too, plus 50+ standalone projects built from OmniRoute's code. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
