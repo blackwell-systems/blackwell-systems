@@ -6,7 +6,7 @@
 
 Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack runs on, and ship the evidence to back it: durable agents, wire formats, code intelligence, MCP tooling, and conformance testing, with the research underneath. Independent, evidence-first.
 
-**My work is used by 120+ repositories across 60+ organizations**, including Google's Chrome DevTools MCP, Opera, Apereo CAS, Camunda and Flipt.
+**My work is used by 120+ repositories across 60+ organizations, with nearly 1 million downloads**, including Google's Chrome DevTools MCP, Opera, Apereo CAS, Camunda and Flipt.
 
 ---
 

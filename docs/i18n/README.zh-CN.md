@@ -6,7 +6,7 @@
 
 创始人：Dayna Blackwell。我构建智能体 AI 技术栈赖以运行的开放基础设施，并交付支撑它的证据：持久化智能体、线路格式、代码智能、MCP 工具链以及一致性测试，其背后皆有研究支撑。独立，证据优先。
 
-**已被 60+ 个组织的 120+ 个代码仓库使用**，包括 Google 的 Chrome DevTools MCP、Opera、Apereo CAS、Camunda 和 Flipt。
+**已被 60+ 个组织的 120+ 个代码仓库使用，下载量接近 100 万**，包括 Google 的 Chrome DevTools MCP、Opera、Apereo CAS、Camunda 和 Flipt。
 
 ---
 
