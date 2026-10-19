@@ -162,7 +162,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 
 ### 上游贡献
 
-在 30+ 个组织中合并了 50+ 个 PR。[mcp-go](https://github.com/mark3labs/mcp-go)（9.2K stars）的第 6 号贡献者。
+在 30+ 个组织中合并了 50+ 个 PR。[mcp-go](https://github.com/mark3labs/mcp-go)（9.2K stars）的前 10 名贡献者。
 数据损坏修复、panic 恢复、SDK 加固、规范合规、传输层缺陷修复。
 
 | 组织 | 内容 | Stars |
@@ -171,11 +171,11 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 | **Anthropic** | MCP Go、Python、PHP SDK + 服务器 | 85K+ |
 | **LangChain** | langchain（文本分割器修复） | 136K |
 | **etcd** | CNCF gRPC 错误码修复（审查中） | 51K |
-| **Charmbracelet** | bubbletea、huh | 42K |
+| **Charmbracelet** | bubbletea、huh（审核中） | 42K |
 | **GitHub** | github-mcp-server | 16K |
 | **HashiCorp** | terraform-provider-aws（GovCloud 修复） | 10.9K |
 | **pypa** | pip（区域设置编码修复） | 10.2K |
-| **mark3labs** | mcp-go SDK（9 个 PR，第 6 号贡献者） | 9.2K |
+| **mark3labs** | mcp-go SDK（9 个 PR，前 10 名贡献者） | 9.2K |
 | **Ant Group** | mcp-server-chart（9 个缺陷修复） | 4K |
 | **Grafana** | mcp-grafana（3 个已合并 PR） | 2.9K |
 | **Apache** | CouchDB（复制缺陷，已完成诊断；已在上游修复） | 7K |

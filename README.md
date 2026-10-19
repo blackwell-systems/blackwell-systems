@@ -162,7 +162,7 @@ A federation's consistent states as a finite limit, gluing over sub-federations,
 
 ### Upstream Contributions
 
-50+ merged PRs across 30+ organizations. #6 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K stars).
+50+ merged PRs across 30+ organizations. Top-10 contributor to [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K stars).
 Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport bugs.
 
 | Organization | What | Stars |
@@ -171,11 +171,11 @@ Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport
 | **Anthropic** | MCP Go, Python, PHP SDKs + servers | 85K+ |
 | **LangChain** | langchain (text splitter fix) | 136K |
 | **etcd** | CNCF gRPC error code fix (in review) | 51K |
-| **Charmbracelet** | bubbletea, huh | 42K |
+| **Charmbracelet** | bubbletea, huh (in review) | 42K |
 | **GitHub** | github-mcp-server | 16K |
 | **HashiCorp** | terraform-provider-aws (GovCloud fix) | 10.9K |
 | **pypa** | pip (locale encoding fix) | 10.2K |
-| **mark3labs** | mcp-go SDK (9 PRs, #6 contributor) | 9.2K |
+| **mark3labs** | mcp-go SDK (9 PRs, top-10 contributor) | 9.2K |
 | **Ant Group** | mcp-server-chart (9 bug fixes) | 4K |
 | **Grafana** | mcp-grafana (3 PRs merged) | 2.9K |
 | **Apache** | CouchDB (replication bug, diagnosed; fixed upstream) | 7K |

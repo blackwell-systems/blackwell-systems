@@ -162,7 +162,7 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 
 ### अपस्ट्रीम योगदान
 
-30+ संगठनों में 50+ मर्ज किए गए PR। [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K stars) में #6 योगदानकर्ता।
+30+ संगठनों में 50+ मर्ज किए गए PR। [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K stars) में शीर्ष-10 योगदानकर्ता।
 डेटा भ्रष्टाचार सुधार, panic रिकवरी, SDK सुदृढ़ीकरण, स्पेक अनुपालन, ट्रांसपोर्ट बग।
 
 | संगठन | क्या | Stars |
@@ -171,11 +171,11 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 | **Anthropic** | MCP Go, Python, PHP SDK + सर्वर | 85K+ |
 | **LangChain** | langchain (टेक्स्ट स्प्लिटर सुधार) | 136K |
 | **etcd** | CNCF gRPC एरर कोड सुधार (समीक्षाधीन) | 51K |
-| **Charmbracelet** | bubbletea, huh | 42K |
+| **Charmbracelet** | bubbletea, huh (समीक्षाधीन) | 42K |
 | **GitHub** | github-mcp-server | 16K |
 | **HashiCorp** | terraform-provider-aws (GovCloud सुधार) | 10.9K |
 | **pypa** | pip (locale एन्कोडिंग सुधार) | 10.2K |
-| **mark3labs** | mcp-go SDK (9 PR, #6 योगदानकर्ता) | 9.2K |
+| **mark3labs** | mcp-go SDK (9 PR, शीर्ष-10 योगदानकर्ता) | 9.2K |
 | **Ant Group** | mcp-server-chart (9 बग सुधार) | 4K |
 | **Grafana** | mcp-grafana (3 PR मर्ज किए गए) | 2.9K |
 | **Apache** | CouchDB (रेप्लिकेशन बग, निदान किया गया; अपस्ट्रीम में ठीक किया गया) | 7K |

@@ -162,7 +162,7 @@
 
 ### مساهمات المصدر الأعلى
 
-أكثر من 50 طلب سحب (PR) مُدمَجًا عبر أكثر من 30 منظمة. المساهم رقم 6 في [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K stars).
+أكثر من 50 طلب سحب (PR) مُدمَجًا عبر أكثر من 30 منظمة. من أكبر 10 مساهمين في [mcp-go](https://github.com/mark3labs/mcp-go) (9.2K stars).
 إصلاحات لتلف البيانات، واستعادة من حالات panic، وتصليب SDK، والامتثال للمواصفات، وأخطاء النقل.
 
 | المؤسسة | ماذا | Stars |
@@ -171,11 +171,11 @@
 | **Anthropic** | حزم تطوير MCP Go وPython وPHP + خوادم | 85K+ |
 | **LangChain** | langchain (إصلاح مُقسِّم النصوص) | 136K |
 | **etcd** | إصلاح رمز خطأ CNCF gRPC (قيد المراجعة) | 51K |
-| **Charmbracelet** | bubbletea، huh | 42K |
+| **Charmbracelet** | bubbletea، huh (قيد المراجعة) | 42K |
 | **GitHub** | github-mcp-server | 16K |
 | **HashiCorp** | terraform-provider-aws (إصلاح GovCloud) | 10.9K |
 | **pypa** | pip (إصلاح ترميز اللغة المحلية) | 10.2K |
-| **mark3labs** | mcp-go SDK (9 طلبات سحب، المساهم رقم 6) | 9.2K |
+| **mark3labs** | mcp-go SDK (9 طلبات سحب، من أكبر 10 مساهمين) | 9.2K |
 | **Ant Group** | mcp-server-chart (9 إصلاحات لأخطاء) | 4K |
 | **Grafana** | mcp-grafana (3 طلبات سحب مُدمَجة) | 2.9K |
 | **Apache** | CouchDB (خلل في النسخ المتماثل، شُخِّص؛ أُصلِح في المشروع الأصلي) | 7K |
