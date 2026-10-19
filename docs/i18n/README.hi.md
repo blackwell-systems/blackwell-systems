@@ -6,13 +6,15 @@
 
 संस्थापक: Dayna Blackwell। मैं वह ओपन इन्फ्रास्ट्रक्चर बनाती हूँ जिस पर एजेंटिक AI स्टैक चलता है, और उसका समर्थन करने वाले प्रमाण भी प्रस्तुत करती हूँ: टिकाऊ एजेंट, वायर फ़ॉर्मैट, कोड इंटेलिजेंस, MCP टूलिंग, और कॉन्फ़ॉर्मेंस परीक्षण, जिनकी नींव में शोध है। स्वतंत्र, प्रमाण-प्रथम।
 
+**60+ संगठनों के 120+ रिपॉज़िटरी में उपयोग किया जाता है**, जिनमें Google का Chrome DevTools MCP, Opera, Apereo CAS, Camunda और Flipt शामिल हैं।
+
 ---
 
 ### GCF (Graph Compact Format)
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। हर फ्रंटियर मॉडल पर 100% समझ। JSON की तुलना में 50-92% कम टोकन। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ LLM मूल्यांकन। 5 फ़ॉर्मैटों में 43B+ हानि-रहित राउंड-ट्रिप। Chrome DevTools MCP, Opera और OmniRoute (77K स्टार) सहित 32 प्रोजेक्टों द्वारा अपनाया गया; GCF का एन्कोडर OmniRoute में सीधे शामिल है, इसलिए उसके बाद बने 10,000+ OmniRoute फ़ोर्क्स में भी यह मौजूद है, साथ ही OmniRoute के कोड से बने 50+ स्वतंत्र प्रोजेक्टों में भी। किसी प्रशिक्षण की आवश्यकता नहीं।
+संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। हर फ्रंटियर मॉडल पर 100% समझ। JSON की तुलना में 50-92% कम टोकन। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ LLM मूल्यांकन। 5 फ़ॉर्मैटों में 43B+ हानि-रहित राउंड-ट्रिप। Chrome DevTools MCP, Opera और OmniRoute (77K स्टार) सहित Blackwell Systems के बाहर 28 प्रोजेक्टों द्वारा उपयोग किया जाता है, 580K+ डाउनलोड; GCF का एन्कोडर OmniRoute में सीधे शामिल है, इसलिए उसके बाद बने 10,000+ OmniRoute फ़ोर्क्स में भी यह मौजूद है, साथ ही OmniRoute के कोड से बने 50+ स्वतंत्र प्रोजेक्टों में भी। किसी प्रशिक्षण की आवश्यकता नहीं।
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -52,7 +54,7 @@ Go में AI एजेंट बनाने के लिए एक सम�
 
 <a href="https://github.com/blackwell-systems/agent-lsp"><img src="https://raw.githubusercontent.com/blackwell-systems/agent-lsp/main/assets/social-preview.png" width="50%" alt="agent-lsp"></a>
 
-AI एजेंटों के लिए कोड इंटेलिजेंस इन्फ्रास्ट्रक्चर। 65 टूल, 30 CI-सत्यापित भाषाएँ, 24 एजेंट वर्कफ़्लो। एकल Go बाइनरी। डिफ़ॉल्ट आउटपुट फ़ॉर्मैट के रूप में GCF का उपयोग करता है।
+AI एजेंटों के लिए कोड इंटेलिजेंस इन्फ्रास्ट्रक्चर। 65 टूल, 30 CI-सत्यापित भाषाएँ, 24 एजेंट वर्कफ़्लो। एकल Go बाइनरी। डिफ़ॉल्ट आउटपुट फ़ॉर्मैट के रूप में GCF का उपयोग करता है। 25 संगठनों के 41 रिपॉज़िटरी में उपयोग किया जाता है।
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
@@ -61,7 +63,7 @@ AI एजेंटों के लिए कोड इंटेलिजें�
 
 <a href="https://github.com/blackwell-systems/mcp-assert"><img src="https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png" width="50%" alt="mcp-assert"></a>
 
-MCP सर्वरों के लिए कॉन्फ़ॉर्मेंस परीक्षण। 102 सर्वर स्कैन किए गए, 34 बग पाए गए, 12 अपस्ट्रीम इश्यू दायर किए गए। फ़ज़ परीक्षण, स्कीमा लिंटिंग, प्रति-अभिकथन Docker आइसोलेशन।
+MCP सर्वरों के लिए कॉन्फ़ॉर्मेंस परीक्षण। 102 सर्वर स्कैन किए गए, 34 बग पाए गए, 12 अपस्ट्रीम इश्यू दायर किए गए। फ़ज़ परीक्षण, स्कीमा लिंटिंग, प्रति-अभिकथन Docker आइसोलेशन। WYRE के 39 MCP सर्वर रिपॉज़िटरी के CI में चलता है। 55K+ डाउनलोड।
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
@@ -131,7 +133,7 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 8 टोकनाइज़र, 6 प्रदाताओं में क्रॉस-टोकनाइज़र विश्लेषण। JSON फ़ील्ड नाम 50-63% टोकनाइज़रों पर उद्घाटक उद्धरण चिह्न के साथ जुड़ जाते हैं। JSON सीमा मर्ज दर 8.93% बनाम पाइप के लिए 1.00%; TOON टैब 59.82%। JSON ओवरहेड 500 पंक्तियों पर 81% तक पहुँच जाता है।
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ मूल्यांकन। 43B+ हानि-रहित राउंड-ट्रिप। 32 प्रोजेक्टों द्वारा अपनाया गया। Spec v3.6.0 Stable।
+संरचित डेटा के लिए AI-नेटिव वायर फ़ॉर्मैट। 4 प्रदाताओं के 11 मॉडलों पर 2,500+ मूल्यांकन। 43B+ हानि-रहित राउंड-ट्रिप। Blackwell Systems के बाहर 28 प्रोजेक्टों द्वारा उपयोग किया जाता है। 580K+ डाउनलोड। Spec v3.6.0 Stable।
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

@@ -6,13 +6,15 @@
 
 المؤسِّسة: Dayna Blackwell. أبني البنية التحتية المفتوحة التي تعمل عليها منظومة الذكاء الاصطناعي الوكيلي، وأقدّم الأدلة التي تدعمها: وكلاء دائمون، وصيغ نقل بيانات، وذكاء بَرمجي للشفرة، وأدوات MCP، واختبارات المطابقة، مع البحث في الأساس. مستقلة، والدليل أولاً.
 
+**تستخدمها أكثر من 120 مستودعًا لدى أكثر من 60 منظمة**، من بينها Chrome DevTools MCP من Google وOpera وApereo CAS وCamunda وFlipt.
+
 ---
 
 ### GCF (Graph Compact Format)
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. فهم بنسبة 100% على كل نموذج رائد. عدد رموز أقل بنسبة 50-92% مقارنةً بـ JSON. أكثر من 2,500 تقييم لنماذج اللغة الكبيرة عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان عبر 5 صيغ. معتمدة في 32 مشروعًا بما في ذلك Chrome DevTools MCP وOpera وOmniRoute (77 ألف نجمة)؛ مُشفِّر GCF مُضمَّن مباشرةً في OmniRoute، لذا فإن أكثر من 10,000 نسخة متفرعة من OmniRoute أُنشئت منذ ذلك الحين تحمله أيضًا، إضافةً إلى أكثر من 50 مشروعًا مستقلًا مبنيًا على شيفرة OmniRoute. لا حاجة إلى أي تدريب.
+صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. فهم بنسبة 100% على كل نموذج رائد. عدد رموز أقل بنسبة 50-92% مقارنةً بـ JSON. أكثر من 2,500 تقييم لنماذج اللغة الكبيرة عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان عبر 5 صيغ. تستخدمها 28 مشروعًا خارج Blackwell Systems، وأكثر من 580 ألف تنزيل، بما في ذلك Chrome DevTools MCP وOpera وOmniRoute (77 ألف نجمة)؛ مُشفِّر GCF مُضمَّن مباشرةً في OmniRoute، لذا فإن أكثر من 10,000 نسخة متفرعة من OmniRoute أُنشئت منذ ذلك الحين تحمله أيضًا، إضافةً إلى أكثر من 50 مشروعًا مستقلًا مبنيًا على شيفرة OmniRoute. لا حاجة إلى أي تدريب.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -52,7 +54,7 @@
 
 <a href="https://github.com/blackwell-systems/agent-lsp"><img src="https://raw.githubusercontent.com/blackwell-systems/agent-lsp/main/assets/social-preview.png" width="50%" alt="agent-lsp"></a>
 
-بنية تحتية للذكاء البَرمجي للشفرة مخصّصة لوكلاء الذكاء الاصطناعي. 65 أداة، و30 لغة مُتحقَّقًا منها عبر CI، و24 سير عمل للوكلاء. ملف Go تنفيذي واحد. يستخدم GCF بوصفه صيغة الإخراج الافتراضية.
+بنية تحتية للذكاء البَرمجي للشفرة مخصّصة لوكلاء الذكاء الاصطناعي. 65 أداة، و30 لغة مُتحقَّقًا منها عبر CI، و24 سير عمل للوكلاء. ملف Go تنفيذي واحد. يستخدم GCF بوصفه صيغة الإخراج الافتراضية. يستخدمه 41 مستودعًا لدى 25 منظمة.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
@@ -61,7 +63,7 @@
 
 <a href="https://github.com/blackwell-systems/mcp-assert"><img src="https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png" width="50%" alt="mcp-assert"></a>
 
-اختبار المطابقة لخوادم MCP. جرى فحص 102 خادم، واكتُشف 34 خللًا، ورُفعت 12 مشكلة إلى المصدر الأعلى. اختبار عشوائي (Fuzz)، وتدقيق المخططات (schema linting)، وعزل Docker لكل تأكيد.
+اختبار المطابقة لخوادم MCP. جرى فحص 102 خادم، واكتُشف 34 خللًا، ورُفعت 12 مشكلة إلى المصدر الأعلى. اختبار عشوائي (Fuzz)، وتدقيق المخططات (schema linting)، وعزل Docker لكل تأكيد. يعمل في CI عبر 39 مستودعًا لخوادم MCP لدى WYRE. أكثر من 55 ألف تنزيل.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
@@ -131,7 +133,7 @@
 تحليل عابر للمُرمِّزات عبر 8 مُرمِّزات و6 مزوّدين. تندمج أسماء حقول JSON مع علامة الاقتباس الافتتاحية على 50-63% من المُرمِّزات. معدل دمج حدود JSON 8.93% مقابل 1.00% للخط العمودي (pipe)؛ وعلامة الجدولة في TOON 59.82%. تبلغ نفقات JSON الإضافية 81% عند 500 صف.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. أكثر من 2,500 تقييم عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان. معتمدة في 32 مشروعًا. Spec v3.6.0 Stable.
+صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. أكثر من 2,500 تقييم عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان. تستخدمها 28 مشروعًا خارج Blackwell Systems. أكثر من 580 ألف تنزيل. Spec v3.6.0 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

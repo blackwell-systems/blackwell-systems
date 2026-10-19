@@ -6,13 +6,15 @@
 
 Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack runs on, and ship the evidence to back it: durable agents, wire formats, code intelligence, MCP tooling, and conformance testing, with the research underneath. Independent, evidence-first.
 
+**Used by 120+ repositories across 60+ organizations**, including Google's Chrome DevTools MCP, Opera, Apereo CAS, Camunda and Flipt.
+
 ---
 
 ### GCF (Graph Compact Format)
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Adopted by 32 projects including Chrome DevTools MCP, Opera and OmniRoute (77K stars), where GCF's encoder is vendored in, so the 10,000+ OmniRoute forks made since carry it too, plus 50+ standalone projects built from OmniRoute's code. Zero training required.
+The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 2,500+ LLM evaluations across 11 models and 4 providers. 43B+ lossless round-trips across 5 formats. Used by 28 projects outside Blackwell Systems, with 580K+ downloads, including Chrome DevTools MCP, Opera and OmniRoute (77K stars), where GCF's encoder is vendored in, so the 10,000+ OmniRoute forks made since carry it too, plus 50+ standalone projects built from OmniRoute's code. Zero training required.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -52,7 +54,7 @@ A full framework for building AI agents in Go: models (OpenAI, Anthropic, Gemini
 
 <a href="https://github.com/blackwell-systems/agent-lsp"><img src="https://raw.githubusercontent.com/blackwell-systems/agent-lsp/main/assets/social-preview.png" width="50%" alt="agent-lsp"></a>
 
-Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format.
+Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languages, 24 agent workflows. Single Go binary. Uses GCF as default output format. Used by 41 repositories across 25 organizations.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
@@ -61,7 +63,7 @@ Code intelligence infrastructure for AI agents. 65 tools, 30 CI-verified languag
 
 <a href="https://github.com/blackwell-systems/mcp-assert"><img src="https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png" width="50%" alt="mcp-assert"></a>
 
-Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation.
+Conformance testing for MCP servers. 102 servers scanned, 34 bugs found, 12 upstream issues filed. Fuzz testing, schema linting, per-assertion Docker isolation. Runs in CI across 39 of WYRE's MCP server repos. 55K+ downloads.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
@@ -131,7 +133,7 @@ First head-specialization atlas at scale: 384 heads, 7 behaviors, 131 checkpoint
 Cross-tokenizer analysis across 8 tokenizers, 6 providers. JSON field names fuse with the opening quote on 50-63% of tokenizers. JSON boundary merge rate 8.93% vs 1.00% for pipe; TOON tab 59.82%. JSON overhead reaches 81% at 500 rows.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-The AI-native wire format for structured data. 2,500+ evaluations across 11 models and 4 providers. 43B+ lossless round-trips. Adopted by 32 projects. Spec v3.6.0 Stable.
+The AI-native wire format for structured data. 2,500+ evaluations across 11 models and 4 providers. 43B+ lossless round-trips. Used by 28 projects outside Blackwell Systems. 580K+ downloads. Spec v3.6.0 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

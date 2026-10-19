@@ -6,13 +6,15 @@
 
 Основатель: Dayna Blackwell. Я создаю открытую инфраструктуру, на которой работает стек агентного ИИ, и предоставляю доказательства, подкрепляющие её: устойчивые агенты, форматы передачи данных, интеллектуальный анализ кода, инструментарий MCP и тестирование на соответствие, с исследованиями в основе. Независимо, доказательства прежде всего.
 
+**Используется в 120+ репозиториях 60+ организаций**, включая Chrome DevTools MCP от Google, Opera, Apereo CAS, Camunda и Flipt.
+
 ---
 
 ### GCF (Graph Compact Format)
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-AI-нативный формат передачи структурированных данных. 100% понимания на каждой передовой модели. На 50-92% меньше токенов, чем в JSON. 2500+ оценок LLM на 11 моделях от 4 провайдеров. 43 млрд+ проходов без потерь через 5 форматов. Используется в 32 проектах, включая Chrome DevTools MCP, Opera и OmniRoute (77 тыс. звёзд); кодировщик GCF встроен в OmniRoute, поэтому более 10 000 форков OmniRoute, созданных с тех пор, тоже содержат его, а также более 50 самостоятельных проектов, построенных на коде OmniRoute. Обучение не требуется.
+AI-нативный формат передачи структурированных данных. 100% понимания на каждой передовой модели. На 50-92% меньше токенов, чем в JSON. 2500+ оценок LLM на 11 моделях от 4 провайдеров. 43 млрд+ проходов без потерь через 5 форматов. Используется в 28 проектах вне Blackwell Systems, 580 тыс.+ загрузок, включая Chrome DevTools MCP, Opera и OmniRoute (77 тыс. звёзд); кодировщик GCF встроен в OmniRoute, поэтому более 10 000 форков OmniRoute, созданных с тех пор, тоже содержат его, а также более 50 самостоятельных проектов, построенных на коде OmniRoute. Обучение не требуется.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -52,7 +54,7 @@ AI-нативный формат передачи структурированн
 
 <a href="https://github.com/blackwell-systems/agent-lsp"><img src="https://raw.githubusercontent.com/blackwell-systems/agent-lsp/main/assets/social-preview.png" width="50%" alt="agent-lsp"></a>
 
-Инфраструктура интеллектуального анализа кода для ИИ-агентов. 65 инструментов, 30 языков с проверкой в CI, 24 агентных рабочих процесса. Единый бинарник на Go. По умолчанию использует GCF как формат вывода.
+Инфраструктура интеллектуального анализа кода для ИИ-агентов. 65 инструментов, 30 языков с проверкой в CI, 24 агентных рабочих процесса. Единый бинарник на Go. По умолчанию использует GCF как формат вывода. Используется в 41 репозитории 25 организаций.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
@@ -61,7 +63,7 @@ AI-нативный формат передачи структурированн
 
 <a href="https://github.com/blackwell-systems/mcp-assert"><img src="https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png" width="50%" alt="mcp-assert"></a>
 
-Тестирование MCP-серверов на соответствие. Просканировано 102 сервера, найдено 34 бага, подано 12 issue в апстрим. Фаззинг, линтинг схем, изоляция в Docker для каждой проверки.
+Тестирование MCP-серверов на соответствие. Просканировано 102 сервера, найдено 34 бага, подано 12 issue в апстрим. Фаззинг, линтинг схем, изоляция в Docker для каждой проверки. Работает в CI в 39 репозиториях MCP-серверов WYRE. 55 тыс.+ загрузок.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
@@ -131,7 +133,7 @@ AI-нативный формат передачи структурированн
 Кросс-токенизаторный анализ на 8 токенизаторах и 6 провайдерах. Имена полей JSON сливаются с открывающей кавычкой на 50-63% токенизаторов. Частота слияния границ JSON 8.93% против 1.00% для вертикальной черты; табуляция TOON 59.82%. Накладные расходы JSON достигают 81% при 500 строках.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-AI-нативный формат передачи структурированных данных. 2500+ оценок на 11 моделях от 4 провайдеров. 43 млрд+ проходов без потерь. Используется в 32 проектах. Spec v3.6.0 Stable.
+AI-нативный формат передачи структурированных данных. 2500+ оценок на 11 моделях от 4 провайдеров. 43 млрд+ проходов без потерь. Используется в 28 проектах вне Blackwell Systems. 580 тыс.+ загрузок. Spec v3.6.0 Stable.
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)

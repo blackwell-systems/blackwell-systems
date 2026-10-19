@@ -6,13 +6,15 @@
 
 创始人：Dayna Blackwell。我构建智能体 AI 技术栈赖以运行的开放基础设施，并交付支撑它的证据：持久化智能体、线路格式、代码智能、MCP 工具链以及一致性测试，其背后皆有研究支撑。独立，证据优先。
 
+**已被 60+ 个组织的 120+ 个代码仓库使用**，包括 Google 的 Chrome DevTools MCP、Opera、Apereo CAS、Camunda 和 Flipt。
+
 ---
 
 ### GCF（Graph Compact Format）
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-面向 AI 原生的结构化数据线路格式。在每一款前沿模型上实现 100% 的理解率。相较 JSON 减少 50-92% 的 token。跨 11 个模型、4 家提供商的 2,500+ 次 LLM 评测。跨 5 种格式的 43B+ 次无损往返。已被 32 个项目采用，包括 Chrome DevTools MCP、Opera 和 OmniRoute（77K 星标）；GCF 编码器被直接内置于 OmniRoute，此后创建的 10,000+ 个 OmniRoute 分叉也都携带它，另有 50+ 个基于 OmniRoute 代码构建的独立项目。无需任何训练。
+面向 AI 原生的结构化数据线路格式。在每一款前沿模型上实现 100% 的理解率。相较 JSON 减少 50-92% 的 token。跨 11 个模型、4 家提供商的 2,500+ 次 LLM 评测。跨 5 种格式的 43B+ 次无损往返。已被 Blackwell Systems 以外的 28 个项目使用，下载量 580K+，包括 Chrome DevTools MCP、Opera 和 OmniRoute（77K 星标）；GCF 编码器被直接内置于 OmniRoute，此后创建的 10,000+ 个 OmniRoute 分叉也都携带它，另有 50+ 个基于 OmniRoute 代码构建的独立项目。无需任何训练。
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -52,7 +54,7 @@
 
 <a href="https://github.com/blackwell-systems/agent-lsp"><img src="https://raw.githubusercontent.com/blackwell-systems/agent-lsp/main/assets/social-preview.png" width="50%" alt="agent-lsp"></a>
 
-面向 AI 智能体的代码智能基础设施。65 个工具，30 种经 CI 验证的语言，24 个智能体工作流。单个 Go 二进制文件。默认使用 GCF 作为输出格式。
+面向 AI 智能体的代码智能基础设施。65 个工具，30 种经 CI 验证的语言，24 个智能体工作流。单个 Go 二进制文件。默认使用 GCF 作为输出格式。已被 25 个组织的 41 个代码仓库使用。
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/agent-lsp?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/agent-lsp/blob/main/LICENSE)
@@ -61,7 +63,7 @@
 
 <a href="https://github.com/blackwell-systems/mcp-assert"><img src="https://raw.githubusercontent.com/blackwell-systems/mcp-assert/main/assets/social-preview.png" width="50%" alt="mcp-assert"></a>
 
-面向 MCP 服务器的一致性测试。已扫描 102 个服务器，发现 34 个缺陷，向上游提交 12 个问题。模糊测试、模式检查，以及每断言级别的 Docker 隔离。
+面向 MCP 服务器的一致性测试。已扫描 102 个服务器，发现 34 个缺陷，向上游提交 12 个问题。模糊测试、模式检查，以及每断言级别的 Docker 隔离。在 WYRE 的 39 个 MCP 服务器仓库的 CI 中运行。下载量 55K+。
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/github/license/blackwell-systems/mcp-assert?style=for-the-badge&color=6fa2c9)](https://github.com/blackwell-systems/mcp-assert/blob/main/LICENSE)
@@ -131,7 +133,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 跨 8 个 tokenizer、6 家提供商的分析。JSON 字段名在 50-63% 的 tokenizer 上会与起始引号融合。JSON 边界合并率为 8.93%，而竖线为 1.00%；TOON 制表符为 59.82%。在 500 行时，JSON 开销高达 81%。
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-面向 AI 原生的结构化数据线路格式。跨 11 个模型、4 家提供商的 2,500+ 次评测。43B+ 次无损往返。已被 32 个项目采用。Spec v3.6.0 Stable。
+面向 AI 原生的结构化数据线路格式。跨 11 个模型、4 家提供商的 2,500+ 次评测。43B+ 次无损往返。已被 Blackwell Systems 以外的 28 个项目使用。下载量 580K+。Spec v3.6.0 Stable。
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)
