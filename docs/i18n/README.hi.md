@@ -10,6 +10,14 @@
 
 ---
 
+### नई किताब: Building AI Agents in Go
+
+<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v2.jpg" width="75%" alt="Building AI Agents in Go"></a>
+
+Go की स्टैंडर्ड लाइब्रेरी से एक AI एजेंट बनाकर सीखें कि एजेंट कैसे काम करते हैं, पहले अनुरोध से प्रोडक्शन तक। 17 अध्याय, 776 पृष्ठ: एजेंट लूप, टूल कॉलिंग, कॉन्टेक्स्ट, स्ट्रीमिंग, MCP, मॉडलों में मूल्यांकन, सैंडबॉक्सिंग और प्रॉम्प्ट-इंजेक्शन से बचाव, और क्रैश-सुरक्षित रन जो कभी कोई कार्रवाई दोहराते नहीं। हर उदाहरण बिना API कुंजी के ऑफ़लाइन चलता है।
+
+[किताब](https://golang-agents.com) · [मुफ़्त नमूना (27 पृष्ठ)](https://golang-agents.com/sample/building-ai-agents-in-go-sample-light.pdf) · [कोड](https://github.com/blackwell-systems/go-agents-book-code)
+
 ### GCF (Graph Compact Format)
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>

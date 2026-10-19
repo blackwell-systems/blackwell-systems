@@ -10,6 +10,14 @@
 
 ---
 
+### كتاب جديد: Building AI Agents in Go
+
+<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v2.jpg" width="75%" alt="Building AI Agents in Go"></a>
+
+تعلّم كيف تعمل وكلاء الذكاء الاصطناعي عبر بناء وكيل بلغة Go باستخدام المكتبة القياسية، من أول طلب حتى بيئة الإنتاج. 17 فصلًا و776 صفحة: حلقة الوكيل، واستدعاء الأدوات، والسياق، والبث، وMCP، والتقييم عبر النماذج، والعزل والدفاع ضد حقن التعليمات، وتشغيلات تتحمّل الأعطال ولا تكرّر أي إجراء. كل مثال يعمل دون اتصال ودون مفتاح API.
+
+[الكتاب](https://golang-agents.com) · [عيّنة مجانية (27 صفحة)](https://golang-agents.com/sample/building-ai-agents-in-go-sample-light.pdf) · [الشيفرة](https://github.com/blackwell-systems/go-agents-book-code)
+
 ### GCF (Graph Compact Format)
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
