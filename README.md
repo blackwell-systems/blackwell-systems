@@ -16,7 +16,7 @@ Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack r
 
 Learn how AI agents work by building one in Go, from the first request to production, using the standard library. 17 chapters, 776 pages: the agent loop, tool calling, context, streaming, MCP, evals across models, sandboxing and prompt-injection defenses, and crash-safe runs that never repeat an action. Every example runs offline with no API key.
 
-[Book](https://golang-agents.com) · [Free sample (27 pages)](https://golang-agents.com/sample/building-ai-agents-in-go-sample-light.pdf) · [Code](https://github.com/blackwell-systems/go-agents-book-code)
+[Buy ($29)](https://blackwellsystems.gumroad.com/l/go-agents) · [Book](https://golang-agents.com) · [Free sample (27 pages)](https://golang-agents.com/sample/building-ai-agents-in-go-sample-light.pdf) · [Code](https://github.com/blackwell-systems/go-agents-book-code)
 
 ### GCF (Graph Compact Format)
 

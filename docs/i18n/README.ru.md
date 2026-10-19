@@ -16,7 +16,7 @@
 
 Как работают ИИ-агенты, на примере агента, который вы пишете на Go с помощью стандартной библиотеки, от первого запроса до продакшена. 17 глав, 776 страниц: цикл агента, вызов инструментов, контекст, стриминг, MCP, оценка на разных моделях, песочница и защита от prompt injection, устойчивые к сбоям запуски, которые никогда не повторяют действие. Все примеры работают офлайн без API-ключа.
 
-[Книга](https://golang-agents.com) · [Бесплатный фрагмент (27 страниц)](https://golang-agents.com/sample/building-ai-agents-in-go-sample-light.pdf) · [Код](https://github.com/blackwell-systems/go-agents-book-code)
+[Купить ($29)](https://blackwellsystems.gumroad.com/l/go-agents) · [Книга](https://golang-agents.com) · [Бесплатный фрагмент (27 страниц)](https://golang-agents.com/sample/building-ai-agents-in-go-sample-light.pdf) · [Код](https://github.com/blackwell-systems/go-agents-book-code)
 
 ### GCF (Graph Compact Format)
 
