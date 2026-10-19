@@ -99,7 +99,7 @@ Go स्ट्रक्ट से TypeScript और Zod तक, सत्य �
 
 ### GCP Emulator Suite
 
-विकास और CI के लिए Google Cloud API के स्थानीय कार्यान्वयन। किसी GCP क्रेडेंशियल की आवश्यकता नहीं।
+विकास और CI के लिए Google Cloud API के स्थानीय कार्यान्वयन। किसी GCP क्रेडेंशियल की आवश्यकता नहीं। Apereo CAS, Flipt और Camunda सहित 10 प्रोजेक्टों द्वारा उपयोग किया जाता है।
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)

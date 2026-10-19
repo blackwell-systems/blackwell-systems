@@ -99,7 +99,7 @@
 
 ### GCP Emulator Suite
 
-تطبيقات محلية لواجهات Google Cloud البرمجية لأغراض التطوير والتكامل المستمر. لا حاجة إلى أي بيانات اعتماد لـ GCP.
+تطبيقات محلية لواجهات Google Cloud البرمجية لأغراض التطوير والتكامل المستمر. لا حاجة إلى أي بيانات اعتماد لـ GCP. تستخدمها 10 مشاريع، من بينها Apereo CAS وFlipt وCamunda.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)

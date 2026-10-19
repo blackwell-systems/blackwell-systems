@@ -99,7 +99,7 @@ Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enu
 
 ### GCP Emulator Suite
 
-Local implementations of Google Cloud APIs for development and CI. No GCP credentials required.
+Local implementations of Google Cloud APIs for development and CI. No GCP credentials required. Used by 10 projects, including Apereo CAS, Flipt and Camunda.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
