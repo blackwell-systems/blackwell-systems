@@ -12,7 +12,7 @@
 
 ### नई किताब: Building AI Agents in Go
 
-<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v2.jpg" width="75%" alt="Building AI Agents in Go"></a>
+<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v3.jpg" width="75%" alt="Building AI Agents in Go"></a>
 
 Go की स्टैंडर्ड लाइब्रेरी से एक AI एजेंट बनाकर सीखें कि एजेंट कैसे काम करते हैं, पहले अनुरोध से प्रोडक्शन तक। 17 अध्याय, 776 पृष्ठ: एजेंट लूप, टूल कॉलिंग, कॉन्टेक्स्ट, स्ट्रीमिंग, MCP, मॉडलों में मूल्यांकन, सैंडबॉक्सिंग और प्रॉम्प्ट-इंजेक्शन से बचाव, और क्रैश-सुरक्षित रन जो कभी कोई कार्रवाई दोहराते नहीं। हर उदाहरण बिना API कुंजी के ऑफ़लाइन चलता है।
 

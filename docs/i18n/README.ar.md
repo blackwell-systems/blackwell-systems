@@ -12,7 +12,7 @@
 
 ### كتاب جديد: Building AI Agents in Go
 
-<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v2.jpg" width="75%" alt="Building AI Agents in Go"></a>
+<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v3.jpg" width="75%" alt="Building AI Agents in Go"></a>
 
 تعلّم كيف تعمل وكلاء الذكاء الاصطناعي عبر بناء وكيل بلغة Go باستخدام المكتبة القياسية، من أول طلب حتى بيئة الإنتاج. 17 فصلًا و776 صفحة: حلقة الوكيل، واستدعاء الأدوات، والسياق، والبث، وMCP، والتقييم عبر النماذج، والعزل والدفاع ضد حقن التعليمات، وتشغيلات تتحمّل الأعطال ولا تكرّر أي إجراء. كل مثال يعمل دون اتصال ودون مفتاح API.
 

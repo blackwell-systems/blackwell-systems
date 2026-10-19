@@ -12,7 +12,7 @@
 
 ### 新书：《Building AI Agents in Go》
 
-<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v2.jpg" width="75%" alt="Building AI Agents in Go"></a>
+<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v3.jpg" width="75%" alt="Building AI Agents in Go"></a>
 
 用 Go 标准库从零构建一个 AI 智能体，从第一个请求一直到生产环境，借此理解智能体的工作原理。17 章，776 页：智能体循环、工具调用、上下文、流式输出、MCP、跨模型评测、沙箱与提示注入防御，以及永不重复执行动作的抗崩溃运行。所有示例均可离线运行，无需 API 密钥。
 

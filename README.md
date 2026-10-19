@@ -12,7 +12,7 @@ Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack r
 
 ### New book: Building AI Agents in Go
 
-<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v2.jpg" width="75%" alt="Building AI Agents in Go"></a>
+<a href="https://golang-agents.com"><img src="https://golang-agents.com/og-v3.jpg" width="75%" alt="Building AI Agents in Go"></a>
 
 Learn how AI agents work by building one in Go, from the first request to production, using the standard library. 17 chapters, 776 pages: the agent loop, tool calling, context, streaming, MCP, evals across models, sandboxing and prompt-injection defenses, and crash-safe runs that never repeat an action. Every example runs offline with no API key.
 
