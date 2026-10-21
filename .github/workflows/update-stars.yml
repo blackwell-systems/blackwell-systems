@@ -11,31 +11,24 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # The badge lives on the unprotected `badges` branch so this job never pushes to main.
       - uses: actions/checkout@v4
+        with:
+          ref: badges
 
-      - name: Count total stars
+      - name: Count total stars (blackwell-systems + bide-ai)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           BW=$(gh api users/blackwell-systems/repos --paginate --jq '.[].stargazers_count' | awk '{s+=$1} END {print s+0}')
           BIDE=$(gh api orgs/bide-ai/repos --paginate --jq '.[].stargazers_count' | awk '{s+=$1} END {print s+0}')
           TOTAL=$((BW + BIDE))
-          echo "blackwell-systems: $BW, bide-ai: $BIDE"
-          echo "Total stars: $TOTAL"
-
-          cat > stars-badge.json <<EOF
-          {
-            "schemaVersion": 1,
-            "label": "total stars",
-            "message": "$TOTAL",
-            "color": "1e3a5f",
-            "style": "for-the-badge"
-          }
-          EOF
+          echo "blackwell-systems: $BW, bide-ai: $BIDE, total: $TOTAL"
+          printf '{"schemaVersion":1,"label":"total stars","message":"%s","color":"1e3a5f","style":"for-the-badge"}' "$TOTAL" > stars-badge.json
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stars-badge.json
-          git diff --cached --quiet || (git commit -m "chore: update total stars badge" && git push)
+          git diff --cached --quiet || (git commit -m "chore: update total stars badge" && git push origin badges)
