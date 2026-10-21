@@ -4,6 +4,9 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -14,7 +17,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TOTAL=$(gh api users/blackwell-systems/repos --paginate --jq '.[].stargazers_count' | awk '{s+=$1} END {print s}')
+          BW=$(gh api users/blackwell-systems/repos --paginate --jq '.[].stargazers_count' | awk '{s+=$1} END {print s+0}')
+          BIDE=$(gh api orgs/bide-ai/repos --paginate --jq '.[].stargazers_count' | awk '{s+=$1} END {print s+0}')
+          TOTAL=$((BW + BIDE))
+          echo "blackwell-systems: $BW, bide-ai: $BIDE"
           echo "Total stars: $TOTAL"
 
           cat > stars-badge.json <<EOF
@@ -22,7 +28,7 @@ jobs:
             "schemaVersion": 1,
             "label": "total stars",
             "message": "$TOTAL",
-            "color": "yellow",
+            "color": "1e3a5f",
             "style": "for-the-badge"
           }
           EOF
