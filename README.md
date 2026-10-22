@@ -186,7 +186,7 @@ Data corruption fixes, panic recovery, SDK hardening, spec compliance, transport
 | **mark3labs** | mcp-go SDK (9 PRs, top-10 contributor) | 9.2K |
 | **Ant Group** | mcp-server-chart (9 bug fixes) | 4K |
 | **Grafana** | mcp-grafana (3 PRs merged) | 2.9K |
-| **Apache** | CouchDB (replication bug, diagnosed; fixed upstream) | 7K |
+| **Apache** | CouchDB (2 bugs reported: a replication bug and a regression in its fix, both fixed upstream) | 7K |
 
 [Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
 

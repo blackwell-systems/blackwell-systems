@@ -186,7 +186,7 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 | **mark3labs** | mcp-go SDK (9 PR, शीर्ष-10 योगदानकर्ता) | 9.2K |
 | **Ant Group** | mcp-server-chart (9 बग सुधार) | 4K |
 | **Grafana** | mcp-grafana (3 PR मर्ज किए गए) | 2.9K |
-| **Apache** | CouchDB (रेप्लिकेशन बग, निदान किया गया; अपस्ट्रीम में ठीक किया गया) | 7K |
+| **Apache** | CouchDB (2 बग रिपोर्ट किए: एक रेप्लिकेशन बग और उसके फ़िक्स में एक रिग्रेशन, दोनों अपस्ट्रीम में ठीक किए गए) | 7K |
 
 [Full list](https://blog.blackwell-systems.com/oss#upstream-contributions)
 
