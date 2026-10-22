@@ -137,7 +137,7 @@ A previously undescribed failure mode: every attention head in a standard BPE mo
 **Developmental Atlas of Attention Head Specialization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21205389-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21205389)
 First head-specialization atlas at scale: 384 heads, 7 behaviors, 131 checkpoints, 7 runs, 2 architectures. The BPE capacity tax is architecture-independent (+64.3% NeoX, +67.0% Llama). 48-56% of attention capacity in standard BPE is non-productive.
 
-**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20810588-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20810588)
+**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20789619-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20789619)
 Cross-tokenizer analysis across 8 tokenizers, 6 providers. JSON field names fuse with the opening quote on 50-63% of tokenizers. JSON boundary merge rate 8.93% vs 1.00% for pipe; TOON tab 59.82%. JSON overhead reaches 81% at 500 rows.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)

@@ -137,7 +137,7 @@ AI-нативный формат передачи структурированн
 **Developmental Atlas of Attention Head Specialization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21205389-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21205389)
 Первый масштабный атлас специализации голов: 384 головы, 7 типов поведения, 131 контрольная точка, 7 прогонов, 2 архитектуры. Ёмкостный налог BPE не зависит от архитектуры (+64.3% NeoX, +67.0% Llama). 48-56% ёмкости внимания в стандартной BPE непродуктивны.
 
-**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20810588-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20810588)
+**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20789619-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20789619)
 Кросс-токенизаторный анализ на 8 токенизаторах и 6 провайдерах. Имена полей JSON сливаются с открывающей кавычкой на 50-63% токенизаторов. Частота слияния границ JSON 8.93% против 1.00% для вертикальной черты; табуляция TOON 59.82%. Накладные расходы JSON достигают 81% при 500 строках.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)

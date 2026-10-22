@@ -137,7 +137,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 **Developmental Atlas of Attention Head Specialization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21205389-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21205389)
 首份大规模的注意力头专门化图谱：384 个头，7 种行为，131 个检查点，7 次运行，2 种架构。BPE 容量税与架构无关（NeoX +64.3%，Llama +67.0%）。标准 BPE 中 48-56% 的注意力容量无实际产出。
 
-**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20810588-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20810588)
+**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20789619-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20789619)
 跨 8 个 tokenizer、6 家提供商的分析。JSON 字段名在 50-63% 的 tokenizer 上会与起始引号融合。JSON 边界合并率为 8.93%，而竖线为 1.00%；TOON 制表符为 59.82%。在 500 行时，JSON 开销高达 81%。
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)

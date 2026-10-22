@@ -137,7 +137,7 @@ BPE मर्ज निर्णय किस तरह ट्रांसफ़
 **Developmental Atlas of Attention Head Specialization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21205389-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21205389)
 बड़े पैमाने पर पहला हेड-विशेषज्ञता एटलस: 384 हेड, 7 व्यवहार, 131 चेकपॉइंट, 7 रन, 2 आर्किटेक्चर। BPE क्षमता कर आर्किटेक्चर-निरपेक्ष है (+64.3% NeoX, +67.0% Llama)। मानक BPE में 48-56% अटेंशन क्षमता अनुत्पादक है।
 
-**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20810588-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20810588)
+**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20789619-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20789619)
 8 टोकनाइज़र, 6 प्रदाताओं में क्रॉस-टोकनाइज़र विश्लेषण। JSON फ़ील्ड नाम 50-63% टोकनाइज़रों पर उद्घाटक उद्धरण चिह्न के साथ जुड़ जाते हैं। JSON सीमा मर्ज दर 8.93% बनाम पाइप के लिए 1.00%; TOON टैब 59.82%। JSON ओवरहेड 500 पंक्तियों पर 81% तक पहुँच जाता है।
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)

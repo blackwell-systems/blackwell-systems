@@ -137,7 +137,7 @@
 **Developmental Atlas of Attention Head Specialization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21205389-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.21205389)
 أول أطلس لتخصّص الرؤوس على نطاق واسع: 384 رأسًا، و7 سلوكيات، و131 نقطة تفتيش، و7 عمليات تشغيل، وبنيتان. ضريبة سعة BPE مستقلة عن البنية (+64.3% لـ NeoX، +67.0% لـ Llama). ما بين 48-56% من سعة الانتباه في BPE القياسي غير مُنتِج.
 
-**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20810588-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20810588)
+**Structural Ambiguity in JSON Tokenization** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20789619-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20789619)
 تحليل عابر للمُرمِّزات عبر 8 مُرمِّزات و6 مزوّدين. تندمج أسماء حقول JSON مع علامة الاقتباس الافتتاحية على 50-63% من المُرمِّزات. معدل دمج حدود JSON 8.93% مقابل 1.00% للخط العمودي (pipe)؛ وعلامة الجدولة في TOON 59.82%. تبلغ نفقات JSON الإضافية 81% عند 500 صف.
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
