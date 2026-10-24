@@ -22,7 +22,7 @@
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. فهم بنسبة 100% على كل نموذج رائد. عدد رموز أقل بنسبة 50-92% مقارنةً بـ JSON. أكثر من 2,500 تقييم لنماذج اللغة الكبيرة عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان عبر 5 صيغ. تستخدمها 28 مشروعًا خارج Blackwell Systems، وأكثر من 580 ألف تنزيل، بما في ذلك Chrome DevTools MCP وOpera وOmniRoute (77 ألف نجمة)؛ مُشفِّر GCF مُضمَّن مباشرةً في OmniRoute، لذا فإن أكثر من 10,000 نسخة متفرعة من OmniRoute أُنشئت منذ ذلك الحين تحمله أيضًا، إضافةً إلى أكثر من 50 مشروعًا مستقلًا مبنيًا على شيفرة OmniRoute. لا حاجة إلى أي تدريب.
+صيغة نقل بيانات أصيلة للذكاء الاصطناعي مخصّصة للبيانات المُهيكلة. فهم بنسبة 100% على كل نموذج رائد. عدد رموز أقل بنسبة 50-92% مقارنةً بـ JSON. أكثر من 2,500 تقييم لنماذج اللغة الكبيرة عبر 11 نموذجًا و4 مزوّدين. أكثر من 43 مليار دورة ذهاب وإياب بلا فقدان عبر 5 صيغ. تستخدمها 28 مشروعًا خارج Blackwell Systems، وأكثر من 580 ألف تنزيل، بما في ذلك Chrome DevTools MCP وOpera وOmniRoute (أكثر من 80 ألف نجمة)؛ مُشفِّر GCF مُضمَّن مباشرةً في OmniRoute، لذا فإن أكثر من 11,000 نسخة متفرعة من OmniRoute أُنشئت منذ ذلك الحين تحمله أيضًا، إضافةً إلى أكثر من 50 مشروعًا مستقلًا مبنيًا على شيفرة OmniRoute. لا حاجة إلى أي تدريب.
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
