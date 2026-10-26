@@ -1,0 +1,47 @@
+gcf	"@blackwell-systems/gcf" filename:package.json
+gcf	"@blackwell-systems/gcf" language:TypeScript
+gcf	"@blackwell-systems/gcf" language:JavaScript
+gcf	"blackwell-systems/gcf-go" filename:go.mod
+gcf	"blackwell-systems/gcf-go" language:Go
+gcf	"gcf-python" filename:pyproject.toml
+gcf	"gcf-python" filename:requirements.txt
+gcf	"from gcf import" encode_generic
+gcf	"from gcf import" decode
+gcf	BlackwellSystems.Gcf
+gcf	"blackwell-systems/gcf-swift"
+gcf	"blackwell-systems/gcf-kotlin"
+gcf	"blackwell-systems/gcf-rust"
+gcf	"gcf-proxy" filename:.mcp.json
+gcf	"gcf-proxy" extension:json mcpServers
+gcf	"gcf-proxy" extension:toml
+gcf	"gcf-proxy" extension:nix
+agent-lsp	"blackwell-systems/agent-lsp"
+agent-lsp	"@blackwell-systems/agent-lsp"
+agent-lsp	"ghcr.io/blackwell-systems/agent-lsp"
+agent-lsp	"tap/agent-lsp"
+agent-lsp	"agent-lsp" filename:.mcp.json
+agent-lsp	"agent-lsp" filename:mcp.json
+agent-lsp	"agent-lsp" filename:opencode.json
+agent-lsp	"agent-lsp" extension:json mcpServers
+agent-lsp	"agent-lsp" extension:toml
+agent-lsp	"blackwell-systems/agent-lsp" language:Nix
+agent-lsp	"blackwell-systems/agent-lsp" language:Dockerfile
+agent-lsp	"lsp-safe-edit"
+agent-lsp	"lsp-test-correlation"
+mcp-assert	"blackwell-systems/mcp-assert"
+mcp-assert	"@blackwell-systems/mcp-assert"
+mcp-assert	"mcp-assert-action"
+mcp-assert	"pytest-mcp-assert"
+mcp-assert	"vitest-mcp-assert"
+mcp-assert	"jest-mcp-assert"
+mcp-assert	"blackwellsystems/mcp-assert"
+mcp-assert	"mcp-assert" path:.github/workflows
+emulators	"gcp-secret-manager-emulator"
+emulators	"gcp-kms-emulator"
+emulators	"gcp-iam-emulator"
+emulators	"gcp-eventarc-emulator"
+emulators	"blackwell-systems/gcp-emulator"
+knowing	"blackwell-systems/knowing"
+knowing	"@blackwell-systems/knowing"
+claudewatch	"blackwell-systems/claudewatch"
+claudewatch	"claudewatch" filename:settings.json

@@ -1,0 +1,122 @@
+project,repository,owner_type,stars,category,how_used,evidence,verified
+GCF,automateyournetwork/netclaw,User,685,direct use,GCF for MCP responses (gcf-python),src/netclaw_tokens/requirements.txt,2026-10-26
+GCF,chaitanya-sharmaa/axon,User,2,direct use,GCF (gcf-python),pyproject.toml,2026-10-26
+GCF,cheaper-inference/OmniRoute,Organization,81414,direct use,GCF encoder vendored into its compression engine,open-sse/services/compression/engines/headroom/gcf/index.ts,2026-10-26
+GCF,ChetanKoneru/gcf-mode,User,0,direct use,Emacs major mode for .gcf files,gcf-mode.el,2026-10-26
+GCF,ChromeDevTools/chrome-devtools-mcp,Organization,54203,direct use,Optional GCF output for MCP tool results,package.json,2026-10-26
+GCF,CodeGraphContext/CodeGraphContext,Organization,4356,direct use,Optional GCF output (gcf-python),pyproject.toml,2026-10-26
+GCF,cr7258/elasticsearch-mcp-server,User,314,direct use,GCF responses (gcf-python),pyproject.toml,2026-10-26
+GCF,daniel3303/Equibles,User,240,direct use,Opt-in GCF output for table tools (.NET SDK),Directory.Packages.props,2026-10-26
+GCF,dmmdea/offload-harness,User,4,direct use,GCF encoding in its harness,internal/gcf/gcf.go,2026-10-26
+GCF,erikdarlingdata/PerformanceMonitor,User,524,direct use,Opt-in GCF output for MCP tools (.NET SDK),Directory.Packages.props,2026-10-26
+GCF,erikdarlingdata/PerformanceStudio,User,245,direct use,Opt-in GCF output for MCP tools (.NET SDK),Directory.Packages.props,2026-10-26
+GCF,Fast-Editor/Lynkr,Organization,638,direct use,GCF context encoding,package.json,2026-10-26
+GCF,gensecaihq/pfsense-mcp-server,Organization,112,direct use,Opt-in GCF responses,src/server.py,2026-10-26
+GCF,gensecaihq/Wazuh-MCP-Server,Organization,258,direct use,Opt-in GCF responses (gcf-python),pyproject.toml,2026-10-26
+GCF,hewimetall/vmcp,User,13,direct use,GCF output from its MCP gateway,crates/vmcp-server/src/gcf_out.rs,2026-10-26
+GCF,NETGVai/NeuroNest,Organization,20,direct use,GCF serializer,package.json,2026-10-26
+GCF,operasoftware/opera-devtools-mcp,Organization,15,direct use,Optional GCF output for MCP tool results,package.json,2026-10-26
+GCF,payfacto/bb,Organization,1,direct use,GCF output for agent consumption,go.mod,2026-10-26
+GCF,pcDamasceno/neterse,User,3,direct use,Optional GCF extra (gcf-python),pyproject.toml,2026-10-26
+GCF,sieteunoseis/mcp-cisco-support,User,33,direct use,GCF response format,package.json,2026-10-26
+GCF,speakeasy-api/openapi,Organization,276,direct use,GCF output in its oq CLI,go.mod,2026-10-26
+GCF,Starlit-Digital/bram,Organization,0,direct use,GCF output format (gcf-go),go.mod,2026-10-26
+GCF,Starlit-Digital/clyde,Organization,0,direct use,GCF agent context (gcf-go),go.mod,2026-10-26
+GCF,Starlit-Digital/loom,Organization,0,direct use,GCF snapshots (gcf-go),go.mod,2026-10-26
+GCF,stevesolun/ctx,User,589,direct use,Optional GCF extra (gcf-python),pyproject.toml,2026-10-26
+GCF,thawkins/ragent,User,7,direct use,GCF crate behind a config flag,crates/ragent-config/src/gcf.rs,2026-10-26
+agent-lsp,aashutosh396/mindpalace,User,0,skills,Vendors the agent-lsp skill,_skillforge/MANIFEST.json,2026-10-26
+agent-lsp,AlexaDeWit/Ecluse,User,5,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,artemnoor/CodeSlicer,User,14,integration,CI tests against agent-lsp,pyproject.toml,2026-10-26
+agent-lsp,berlinguyinca/autospec,User,3,integration,agent-lsp code-intelligence backend,docs/code-intelligence.md,2026-10-26
+agent-lsp,bit0rez/gentoo_overlay,User,0,packaging,Gentoo ebuild for agent-lsp,dev-misc/agent-lsp/agent-lsp-0.19.2.ebuild,2026-10-26
+agent-lsp,Borgvall/Decanter,User,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,Borgvall/nixos,User,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,Hellblazer/qwen-coprocessor-stack,User,1,integration,agent-lsp MCP server for coprocessor agents,config/coprocessor-pool-codeintel.example.json,2026-10-26
+agent-lsp,hewimetall/vmcp,User,13,integration,agent-lsp as the LSP layer behind its gateway,scripts/run-agent-lsp.sh,2026-10-26
+agent-lsp,krabka-io/gres,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-broker,Organization,6,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-cli,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-client-rs,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-connect,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-gateway,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-io.github.io,Organization,1,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-o11y-demo,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-operator,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-protocol,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-rebalancer,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-schema-registry,Organization,1,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-streams-go,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-streams-java,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/krabka-streams-rs,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,krabka-io/tooling,Organization,0,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,leafclick/codex-universal,Organization,0,integration,agent-lsp installed in its Codex image,Dockerfile.generic,2026-10-26
+agent-lsp,liuyanghejerry/Clausura,User,204,integration,agent-lsp as a command backend for CI code review,examples/mcp-lsp-review.yaml,2026-10-26
+agent-lsp,loic-roux-404/plateforme,User,6,dev environment,"agent-lsp in VS Code MCP config (Nix, Terraform, YAML)",.vscode/mcp.json,2026-10-26
+agent-lsp,Mission-Platform/composable-mission-ready-platform,Organization,2,skills,Vendors agent-lsp skills,lsp-safe-edit SKILL.md,2026-10-26
+agent-lsp,nix-community/nur-combined,Organization,204,packaging,Packaged in the Nix User Repository,NUR package,2026-10-26
+agent-lsp,NVlabs/Skill2Env,Organization,190,skills,Vendors agent-lsp skills,lsp-safe-edit SKILL.md,2026-10-26
+agent-lsp,OKHP3/askjamie-foundry,User,1,skills,Vendors agent-lsp skills,lsp-safe-edit SKILL.md,2026-10-26
+agent-lsp,OKHP3/skillz,User,3,skills,Vendors agent-lsp skills,lsp-safe-edit SKILL.md,2026-10-26
+agent-lsp,PCSchmidt/Syntaris,User,0,skills,Vendors agent-lsp skills,lsp-safe-edit SKILL.md,2026-10-26
+agent-lsp,selfagency/bifrost-docker,User,0,integration,agent-lsp installed in its Docker image,Dockerfile,2026-10-26
+agent-lsp,Shrub24/nix-homelab,User,1,dev environment,agent-lsp in project MCP config,.mcp.json,2026-10-26
+agent-lsp,sudosubin/agents.nix,User,18,packaging,agent-lsp skills packaged for Nix,skills,2026-10-26
+agent-lsp,TDQUOC/TDQ-Workflow,User,0,integration,Setup script installs agent-lsp releases,scripts/tdq_setup.py,2026-10-26
+agent-lsp,wycleffsean/nix-home,User,0,packaging,Nix package for agent-lsp,pkgs/agent-lsp.nix,2026-10-26
+agent-lsp,yuxqiu/nix-config,User,0,packaging,Nix package for agent-lsp,packages/agent-lsp.nix,2026-10-26
+mcp-assert,WYRE-AI/abnormal-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/action1-mcp,Organization,3,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/atera-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/autotask-mcp,Organization,58,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/auvik-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/avanan-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/cipp-mcp,Organization,11,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/connectwise-automate-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/connectwise-cpq-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/connectwise-manage-mcp,Organization,28,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/crewhu-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/datto-rmm-mcp,Organization,4,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/domotz-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/freshdesk-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/halopsa-mcp,Organization,3,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/hudu-mcp,Organization,3,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/huntress-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/inforcer-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/ironscales-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/itglue-mcp,Organization,17,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/kaseya-quote-manager-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/knowbe4-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/liongard-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/mailprotector-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/mcp-eval-baseline,Organization,0,CI infrastructure,Composite action wrapping mcp-assert-action,action.yml,2026-10-26
+mcp-assert,WYRE-AI/mimecast-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/ninjaone-mcp,Organization,26,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/proofpoint-mcp,Organization,5,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/qbo-mcp,Organization,2,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/reusable-workflows,Organization,0,CI infrastructure,Release workflow runs mcp-assert,.github/workflows/mcp-server-release.yml,2026-10-26
+mcp-assert,WYRE-AI/rocketcyber-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/rootly-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/saas-alerts-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/salesbuildr-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/scalepad-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/sherweb-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/spamtitan-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/superops-mcp,Organization,3,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/syncro-mcp,Organization,4,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,WYRE-AI/xero-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,wyre-technology/.github,Organization,0,CI infrastructure,Shared reusable mcp-assert workflow,.github/workflows/mcp-assert.yml,2026-10-26
+mcp-assert,wyre-technology/afkbot-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+GCP emulators,adorsys/status-list-server,Organization,26,testing / dev,Secret Manager emulator in Rust integration tests,tests/gcp_secrets_manager.rs,2026-10-26
+GCP emulators,akash-network/console,Organization,263,testing / dev,KMS emulator in the dev stack,packages/docker/docker-compose.dev.yml,2026-10-26
+GCP emulators,apereo/cas,Organization,11390,testing / dev,Secret Manager emulator in CI,ci/tests/gcp/run-gcp-server.sh,2026-10-26
+GCP emulators,camunda/camunda,Organization,4339,testing / dev,Secret Manager emulator in end-to-end tests,secret-store/.../SecretManagerEmulatorContainer.java,2026-10-26
+GCP emulators,farmisen/zuul,User,3,testing / dev,Secret Manager emulator (built from a fork) in Docker Compose,docker-compose.emulator.yml,2026-10-26
+GCP emulators,flipt-io/flipt,Organization,4928,testing / dev,Secret Manager emulator in integration tests,build/testing/integration.go,2026-10-26
+GCP emulators,lagdo/dbadmin-mono,Organization,2,testing / dev,Secret Manager emulator in Docker Compose,docker/compose-secrets/docker-compose.yml,2026-10-26
+GCP emulators,mferretti/SeedStream,User,4,testing / dev,Secret Manager emulator in integration tests,GoogleSecretManagerResolverIT.java,2026-10-26
+GCP emulators,mpyw/suve,User,14,testing / dev,Secret Manager emulator in test environments,compose.yaml,2026-10-26
+GCP emulators,qamarudeenm/minisky,User,58,testing / dev,Secret Manager service in a local GCP emulator,docker/secretmanager.Dockerfile,2026-10-26
+GCP emulators,reagento/dature,Organization,48,testing / dev,Secret Manager and IAM emulators in integration tests,tests/integration/sources/gcp_secret_manager/,2026-10-26
+claudewatch,Pepsi1978/proggs,User,1,dev environment,Hook downloads and runs claudewatch,claude-code-setup/hooks/path-verify.sh,2026-10-26
+claudewatch,willsawyerrrr/dotfiles,User,1,dev environment,"claudewatch binary in a Claude Code hook, plus the claudewatch plugin",dot-config/claude/settings.json,2026-10-26

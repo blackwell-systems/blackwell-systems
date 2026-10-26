@@ -1,0 +1,748 @@
+# Verified adopters of Blackwell Systems projects.
+#
+# This file is the source of truth for adoption/render.py. Every entry was confirmed by
+# opening the file named in `evidence` in the adopter's repository. To add an entry, run
+# adoption/search.sh and adoption/verify.py, review the candidates, and add confirmed ones
+# here with the evidence path.
+#
+# individual: true marks a personal setup (dotfiles, homelab, personal Nix config). These
+# are counted but shown as a group on the public page rather than named one by one.
+verified: '2026-10-26'
+adopters:
+- project: GCF
+  repo: ChromeDevTools/chrome-devtools-mcp
+  category: direct use
+  how: Optional GCF output for MCP tool results
+  evidence: package.json
+  individual: false
+- project: GCF
+  repo: operasoftware/opera-devtools-mcp
+  category: direct use
+  how: Optional GCF output for MCP tool results
+  evidence: package.json
+  individual: false
+- project: GCF
+  repo: cheaper-inference/OmniRoute
+  category: direct use
+  how: GCF encoder vendored into its compression engine
+  evidence: open-sse/services/compression/engines/headroom/gcf/index.ts
+  individual: false
+- project: GCF
+  repo: speakeasy-api/openapi
+  category: direct use
+  how: GCF output in its oq CLI
+  evidence: go.mod
+  individual: false
+- project: GCF
+  repo: NETGVai/NeuroNest
+  category: direct use
+  how: GCF serializer
+  evidence: package.json
+  individual: false
+- project: GCF
+  repo: automateyournetwork/netclaw
+  category: direct use
+  how: GCF for MCP responses (gcf-python)
+  evidence: src/netclaw_tokens/requirements.txt
+  individual: false
+- project: GCF
+  repo: stevesolun/ctx
+  category: direct use
+  how: Optional GCF extra (gcf-python)
+  evidence: pyproject.toml
+  individual: false
+- project: GCF
+  repo: Fast-Editor/Lynkr
+  category: direct use
+  how: GCF context encoding
+  evidence: package.json
+  individual: false
+- project: GCF
+  repo: CodeGraphContext/CodeGraphContext
+  category: direct use
+  how: Optional GCF output (gcf-python)
+  evidence: pyproject.toml
+  individual: false
+- project: GCF
+  repo: sieteunoseis/mcp-cisco-support
+  category: direct use
+  how: GCF response format
+  evidence: package.json
+  individual: false
+- project: GCF
+  repo: gensecaihq/Wazuh-MCP-Server
+  category: direct use
+  how: Opt-in GCF responses (gcf-python)
+  evidence: pyproject.toml
+  individual: false
+- project: GCF
+  repo: gensecaihq/pfsense-mcp-server
+  category: direct use
+  how: Opt-in GCF responses
+  evidence: src/server.py
+  individual: false
+- project: GCF
+  repo: cr7258/elasticsearch-mcp-server
+  category: direct use
+  how: GCF responses (gcf-python)
+  evidence: pyproject.toml
+  individual: false
+- project: GCF
+  repo: daniel3303/Equibles
+  category: direct use
+  how: Opt-in GCF output for table tools (.NET SDK)
+  evidence: Directory.Packages.props
+  individual: false
+- project: GCF
+  repo: erikdarlingdata/PerformanceMonitor
+  category: direct use
+  how: Opt-in GCF output for MCP tools (.NET SDK)
+  evidence: Directory.Packages.props
+  individual: false
+- project: GCF
+  repo: erikdarlingdata/PerformanceStudio
+  category: direct use
+  how: Opt-in GCF output for MCP tools (.NET SDK)
+  evidence: Directory.Packages.props
+  individual: false
+- project: GCF
+  repo: payfacto/bb
+  category: direct use
+  how: GCF output for agent consumption
+  evidence: go.mod
+  individual: false
+- project: GCF
+  repo: chaitanya-sharmaa/axon
+  category: direct use
+  how: GCF (gcf-python)
+  evidence: pyproject.toml
+  individual: false
+- project: GCF
+  repo: pcDamasceno/neterse
+  category: direct use
+  how: Optional GCF extra (gcf-python)
+  evidence: pyproject.toml
+  individual: false
+- project: GCF
+  repo: hewimetall/vmcp
+  category: direct use
+  how: GCF output from its MCP gateway
+  evidence: crates/vmcp-server/src/gcf_out.rs
+  individual: false
+- project: GCF
+  repo: Starlit-Digital/bram
+  category: direct use
+  how: GCF output format (gcf-go)
+  evidence: go.mod
+  individual: false
+- project: GCF
+  repo: Starlit-Digital/loom
+  category: direct use
+  how: GCF snapshots (gcf-go)
+  evidence: go.mod
+  individual: false
+- project: GCF
+  repo: Starlit-Digital/clyde
+  category: direct use
+  how: GCF agent context (gcf-go)
+  evidence: go.mod
+  individual: false
+- project: GCF
+  repo: thawkins/ragent
+  category: direct use
+  how: GCF crate behind a config flag
+  evidence: crates/ragent-config/src/gcf.rs
+  individual: false
+- project: GCF
+  repo: ChetanKoneru/gcf-mode
+  category: direct use
+  how: Emacs major mode for .gcf files
+  evidence: gcf-mode.el
+  individual: false
+- project: GCF
+  repo: dmmdea/offload-harness
+  category: direct use
+  how: GCF encoding in its harness
+  evidence: internal/gcf/gcf.go
+  individual: false
+- project: agent-lsp
+  repo: liuyanghejerry/Clausura
+  category: integration
+  how: agent-lsp as a command backend for CI code review
+  evidence: examples/mcp-lsp-review.yaml
+  individual: false
+- project: agent-lsp
+  repo: hewimetall/vmcp
+  category: integration
+  how: agent-lsp as the LSP layer behind its gateway
+  evidence: scripts/run-agent-lsp.sh
+  individual: false
+- project: agent-lsp
+  repo: berlinguyinca/autospec
+  category: integration
+  how: agent-lsp code-intelligence backend
+  evidence: docs/code-intelligence.md
+  individual: false
+- project: agent-lsp
+  repo: TDQUOC/TDQ-Workflow
+  category: integration
+  how: Setup script installs agent-lsp releases
+  evidence: scripts/tdq_setup.py
+  individual: false
+- project: agent-lsp
+  repo: Hellblazer/qwen-coprocessor-stack
+  category: integration
+  how: agent-lsp MCP server for coprocessor agents
+  evidence: config/coprocessor-pool-codeintel.example.json
+  individual: false
+- project: agent-lsp
+  repo: leafclick/codex-universal
+  category: integration
+  how: agent-lsp installed in its Codex image
+  evidence: Dockerfile.generic
+  individual: false
+- project: agent-lsp
+  repo: artemnoor/CodeSlicer
+  category: integration
+  how: CI tests against agent-lsp
+  evidence: pyproject.toml
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/gres
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-broker
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-cli
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-client-rs
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-connect
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-gateway
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-io.github.io
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-o11y-demo
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-operator
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-protocol
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-rebalancer
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-schema-registry
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-streams-go
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-streams-java
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/krabka-streams-rs
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: krabka-io/tooling
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: Borgvall/Decanter
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: Borgvall/nixos
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: true
+- project: agent-lsp
+  repo: AlexaDeWit/Ecluse
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: Shrub24/nix-homelab
+  category: dev environment
+  how: agent-lsp in project MCP config
+  evidence: .mcp.json
+  individual: true
+- project: agent-lsp
+  repo: nix-community/nur-combined
+  category: packaging
+  how: Packaged in the Nix User Repository
+  evidence: NUR package
+  individual: false
+- project: agent-lsp
+  repo: wycleffsean/nix-home
+  category: packaging
+  how: Nix package for agent-lsp
+  evidence: pkgs/agent-lsp.nix
+  individual: true
+- project: agent-lsp
+  repo: yuxqiu/nix-config
+  category: packaging
+  how: Nix package for agent-lsp
+  evidence: packages/agent-lsp.nix
+  individual: true
+- project: agent-lsp
+  repo: bit0rez/gentoo_overlay
+  category: packaging
+  how: Gentoo ebuild for agent-lsp
+  evidence: dev-misc/agent-lsp/agent-lsp-0.19.2.ebuild
+  individual: false
+- project: agent-lsp
+  repo: sudosubin/agents.nix
+  category: packaging
+  how: agent-lsp skills packaged for Nix
+  evidence: skills
+  individual: false
+- project: agent-lsp
+  repo: NVlabs/Skill2Env
+  category: skills
+  how: Vendors agent-lsp skills
+  evidence: lsp-safe-edit SKILL.md
+  individual: false
+- project: agent-lsp
+  repo: Mission-Platform/composable-mission-ready-platform
+  category: skills
+  how: Vendors agent-lsp skills
+  evidence: lsp-safe-edit SKILL.md
+  individual: false
+- project: agent-lsp
+  repo: OKHP3/askjamie-foundry
+  category: skills
+  how: Vendors agent-lsp skills
+  evidence: lsp-safe-edit SKILL.md
+  individual: false
+- project: agent-lsp
+  repo: OKHP3/skillz
+  category: skills
+  how: Vendors agent-lsp skills
+  evidence: lsp-safe-edit SKILL.md
+  individual: false
+- project: agent-lsp
+  repo: PCSchmidt/Syntaris
+  category: skills
+  how: Vendors agent-lsp skills
+  evidence: lsp-safe-edit SKILL.md
+  individual: false
+- project: agent-lsp
+  repo: aashutosh396/mindpalace
+  category: skills
+  how: Vendors the agent-lsp skill
+  evidence: _skillforge/MANIFEST.json
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/abnormal-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/action1-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/atera-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/autotask-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/auvik-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/avanan-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/cipp-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/connectwise-automate-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/connectwise-cpq-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/connectwise-manage-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/crewhu-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/datto-rmm-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/domotz-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/freshdesk-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/halopsa-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/hudu-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/huntress-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/inforcer-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/ironscales-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/itglue-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/kaseya-quote-manager-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/knowbe4-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/liongard-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/mailprotector-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/mimecast-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/ninjaone-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/proofpoint-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/qbo-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/rocketcyber-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/rootly-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/saas-alerts-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/salesbuildr-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/scalepad-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/sherweb-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/spamtitan-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/superops-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/syncro-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/xero-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: wyre-technology/afkbot-mcp
+  category: CI
+  how: mcp-assert in CI via the shared workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: wyre-technology/.github
+  category: CI infrastructure
+  how: Shared reusable mcp-assert workflow
+  evidence: .github/workflows/mcp-assert.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/reusable-workflows
+  category: CI infrastructure
+  how: Release workflow runs mcp-assert
+  evidence: .github/workflows/mcp-server-release.yml
+  individual: false
+- project: mcp-assert
+  repo: WYRE-AI/mcp-eval-baseline
+  category: CI infrastructure
+  how: Composite action wrapping mcp-assert-action
+  evidence: action.yml
+  individual: false
+- project: GCP emulators
+  repo: apereo/cas
+  category: testing / dev
+  how: Secret Manager emulator in CI
+  evidence: ci/tests/gcp/run-gcp-server.sh
+  individual: false
+- project: GCP emulators
+  repo: flipt-io/flipt
+  category: testing / dev
+  how: Secret Manager emulator in integration tests
+  evidence: build/testing/integration.go
+  individual: false
+- project: GCP emulators
+  repo: camunda/camunda
+  category: testing / dev
+  how: Secret Manager emulator in end-to-end tests
+  evidence: secret-store/.../SecretManagerEmulatorContainer.java
+  individual: false
+- project: GCP emulators
+  repo: akash-network/console
+  category: testing / dev
+  how: KMS emulator in the dev stack
+  evidence: packages/docker/docker-compose.dev.yml
+  individual: false
+- project: GCP emulators
+  repo: qamarudeenm/minisky
+  category: testing / dev
+  how: Secret Manager service in a local GCP emulator
+  evidence: docker/secretmanager.Dockerfile
+  individual: false
+- project: GCP emulators
+  repo: reagento/dature
+  category: testing / dev
+  how: Secret Manager and IAM emulators in integration tests
+  evidence: tests/integration/sources/gcp_secret_manager/
+  individual: false
+- project: GCP emulators
+  repo: adorsys/status-list-server
+  category: testing / dev
+  how: Secret Manager emulator in Rust integration tests
+  evidence: tests/gcp_secrets_manager.rs
+  individual: false
+- project: GCP emulators
+  repo: mpyw/suve
+  category: testing / dev
+  how: Secret Manager emulator in test environments
+  evidence: compose.yaml
+  individual: false
+- project: GCP emulators
+  repo: mferretti/SeedStream
+  category: testing / dev
+  how: Secret Manager emulator in integration tests
+  evidence: GoogleSecretManagerResolverIT.java
+  individual: false
+- project: GCP emulators
+  repo: lagdo/dbadmin-mono
+  category: testing / dev
+  how: Secret Manager emulator in Docker Compose
+  evidence: docker/compose-secrets/docker-compose.yml
+  individual: false
+- project: GCP emulators
+  repo: farmisen/zuul
+  category: testing / dev
+  how: Secret Manager emulator (built from a fork) in Docker Compose
+  evidence: docker-compose.emulator.yml
+  individual: false
+- project: claudewatch
+  repo: Pepsi1978/proggs
+  category: dev environment
+  how: Hook downloads and runs claudewatch
+  evidence: claude-code-setup/hooks/path-verify.sh
+  individual: true
+- project: claudewatch
+  repo: willsawyerrrr/dotfiles
+  category: dev environment
+  how: claudewatch binary in a Claude Code hook, plus the claudewatch plugin
+  evidence: dot-config/claude/settings.json
+  individual: true
+- project: agent-lsp
+  repo: loic-roux-404/plateforme
+  category: dev environment
+  how: agent-lsp in VS Code MCP config (Nix, Terraform, YAML)
+  evidence: .vscode/mcp.json
+  individual: false
+- project: agent-lsp
+  repo: selfagency/bifrost-docker
+  category: integration
+  how: agent-lsp installed in its Docker image
+  evidence: Dockerfile
+  individual: false
+without_public_repo:
+- project: GCF
+  name: Open Data Products SDK
+  organization: Linux Foundation
+  url: https://opendataproducts.org/sdk/
+  how: GCF sidecars for ODPC and ODPG workflows
+- project: GCF
+  name: SkyElite
+  organization: SkyElite team
+  url: ''
+  how: GCF for cross-agent context in a LangGraph multi-agent travel planner
