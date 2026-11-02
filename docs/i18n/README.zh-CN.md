@@ -22,7 +22,7 @@
 
 <a href="https://github.com/blackwell-systems/gcf"><img src="https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/gcf-hero-wire-delta.png" width="75%" alt="GCF"></a>
 
-面向 AI 原生的结构化数据线路格式。在每一款前沿模型上实现 100% 的理解率。相较 JSON 减少 50-92% 的 token。跨 11 个模型、4 家提供商的 2,500+ 次 LLM 评测。跨 5 种格式的 43B+ 次无损往返。已被 Blackwell Systems 以外的 28 个项目使用，下载量 580K+，包括 Chrome DevTools MCP、Opera 和 OmniRoute（80K+ 星标）；GCF 编码器被直接内置于 OmniRoute，此后创建的 11,000+ 个 OmniRoute 分叉也都携带它，另有 50+ 个基于 OmniRoute 代码构建的独立项目。无需任何训练。
+面向 AI 原生的结构化数据线路格式。在每一款前沿模型上实现 100% 的理解率。相较 JSON 减少 50-92% 的 token。跨 11 个模型、4 家提供商的 2,500+ 次 LLM 评测。跨 5 种格式的 43B+ 次无损往返。已被 Blackwell Systems 以外的 28 个项目使用，下载量 630K+，包括 Chrome DevTools MCP、Opera 和 OmniRoute（80K+ 星标）；GCF 编码器被直接内置于 OmniRoute，此后创建的 11,000+ 个 OmniRoute 分叉也都携带它，另有 50+ 个基于 OmniRoute 代码构建的独立项目。无需任何训练。
 
 [![Spec](https://img.shields.io/badge/spec-gcformat.com-6fa2c9?style=for-the-badge)](https://gcformat.com)
 [![Benchmarks](https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge)](https://gcformat.com/guide/benchmarks.html)
@@ -141,7 +141,7 @@ BPE 合并决策如何永久性地塑造 transformer 的内部组织。43 个 to
 跨 8 个 tokenizer、6 家提供商的分析。JSON 字段名在 50-63% 的 tokenizer 上会与起始引号融合。JSON 边界合并率为 8.93%，而竖线为 1.00%；TOON 制表符为 59.82%。在 500 行时，JSON 开销高达 81%。
 
 **Graph Compact Format (GCF)** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20579817-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20579817)
-面向 AI 原生的结构化数据线路格式。跨 11 个模型、4 家提供商的 2,500+ 次评测。43B+ 次无损往返。已被 Blackwell Systems 以外的 28 个项目使用。下载量 580K+。Spec v3.6.0 Stable。
+面向 AI 原生的结构化数据线路格式。跨 11 个模型、4 家提供商的 2,500+ 次评测。43B+ 次无损往返。已被 Blackwell Systems 以外的 28 个项目使用。下载量 630K+。Spec v3.6.0 Stable。
 [Explore the project](https://github.com/blackwell-systems/gcf)
 
 **The Hierarchical Identity Architecture** [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20342255-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.20342255)
