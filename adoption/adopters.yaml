@@ -393,6 +393,18 @@ adopters:
   how: Vendors the agent-lsp skill
   evidence: _skillforge/MANIFEST.json
   individual: false
+- project: agent-lsp
+  repo: swordtraveller/codey
+  category: integration
+  how: Desktop agent app with built-in agent-lsp integration and guidance
+  evidence: src/main/mcp/tool-provider.ts
+  individual: false
+- project: agent-lsp
+  repo: FMorschel/agents
+  category: skills
+  how: Vendors agent-lsp skills (lsp-refactor, lsp-rename)
+  evidence: skills/lsp-refactor/SKILL.md
+  individual: true
 - project: mcp-assert
   repo: WYRE-AI/abnormal-mcp
   category: CI

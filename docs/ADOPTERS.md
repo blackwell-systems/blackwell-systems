@@ -2,12 +2,12 @@
 
 Third-party repositories that use Blackwell Systems projects, each verified by opening the file listed under Evidence. Last verified 2026-10-26.
 
-**120 repositories across 59 organizations and developers**, plus 2 adopters without a public repository (Open Data Products SDK, SkyElite).
+**122 repositories across 61 organizations and developers**, plus 2 adopters without a public repository (Open Data Products SDK, SkyElite).
 
 | Project | Repositories |
 |---|---|
 | [GCF](https://github.com/blackwell-systems/gcf) | 26 |
-| [agent-lsp](https://github.com/blackwell-systems/agent-lsp) | 40 |
+| [agent-lsp](https://github.com/blackwell-systems/agent-lsp) | 42 |
 | [mcp-assert](https://github.com/blackwell-systems/mcp-assert) | 42 |
 | [GCP emulators](https://github.com/blackwell-systems/gcp-emulator) | 11 |
 | [claudewatch](https://github.com/blackwell-systems/claudewatch) | 2 |
@@ -18,24 +18,24 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 
 | Repository | Stars | How it is used | Evidence |
 |---|---|---|---|
-| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 81,414 | GCF encoder vendored into its compression engine | `open-sse/services/compression/engines/headroom/gcf/index.ts` |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54,203 | Optional GCF output for MCP tool results | `package.json` |
-| [CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext) | 4,356 | Optional GCF output (gcf-python) | `pyproject.toml` |
-| [automateyournetwork/netclaw](https://github.com/automateyournetwork/netclaw) | 685 | GCF for MCP responses (gcf-python) | `src/netclaw_tokens/requirements.txt` |
-| [Fast-Editor/Lynkr](https://github.com/Fast-Editor/Lynkr) | 638 | GCF context encoding | `package.json` |
+| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 84,313 | GCF encoder vendored into its compression engine | `open-sse/services/compression/engines/headroom/gcf/index.ts` |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 54,747 | Optional GCF output for MCP tool results | `package.json` |
+| [CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext) | 4,374 | Optional GCF output (gcf-python) | `pyproject.toml` |
+| [automateyournetwork/netclaw](https://github.com/automateyournetwork/netclaw) | 714 | GCF for MCP responses (gcf-python) | `src/netclaw_tokens/requirements.txt` |
+| [Fast-Editor/Lynkr](https://github.com/Fast-Editor/Lynkr) | 639 | GCF context encoding | `package.json` |
 | [stevesolun/ctx](https://github.com/stevesolun/ctx) | 589 | Optional GCF extra (gcf-python) | `pyproject.toml` |
-| [erikdarlingdata/PerformanceMonitor](https://github.com/erikdarlingdata/PerformanceMonitor) | 524 | Opt-in GCF output for MCP tools (.NET SDK) | `Directory.Packages.props` |
+| [erikdarlingdata/PerformanceMonitor](https://github.com/erikdarlingdata/PerformanceMonitor) | 528 | Opt-in GCF output for MCP tools (.NET SDK) | `Directory.Packages.props` |
 | [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server) | 314 | GCF responses (gcf-python) | `pyproject.toml` |
-| [speakeasy-api/openapi](https://github.com/speakeasy-api/openapi) | 276 | GCF output in its oq CLI | `go.mod` |
-| [gensecaihq/Wazuh-MCP-Server](https://github.com/gensecaihq/Wazuh-MCP-Server) | 258 | Opt-in GCF responses (gcf-python) | `pyproject.toml` |
-| [erikdarlingdata/PerformanceStudio](https://github.com/erikdarlingdata/PerformanceStudio) | 245 | Opt-in GCF output for MCP tools (.NET SDK) | `Directory.Packages.props` |
+| [speakeasy-api/openapi](https://github.com/speakeasy-api/openapi) | 275 | GCF output in its oq CLI | `go.mod` |
+| [gensecaihq/Wazuh-MCP-Server](https://github.com/gensecaihq/Wazuh-MCP-Server) | 262 | Opt-in GCF responses (gcf-python) | `pyproject.toml` |
+| [erikdarlingdata/PerformanceStudio](https://github.com/erikdarlingdata/PerformanceStudio) | 248 | Opt-in GCF output for MCP tools (.NET SDK) | `Directory.Packages.props` |
 | [daniel3303/Equibles](https://github.com/daniel3303/Equibles) | 240 | Opt-in GCF output for table tools (.NET SDK) | `Directory.Packages.props` |
-| [gensecaihq/pfsense-mcp-server](https://github.com/gensecaihq/pfsense-mcp-server) | 112 | Opt-in GCF responses | `src/server.py` |
-| [sieteunoseis/mcp-cisco-support](https://github.com/sieteunoseis/mcp-cisco-support) | 33 | GCF response format | `package.json` |
+| [gensecaihq/pfsense-mcp-server](https://github.com/gensecaihq/pfsense-mcp-server) | 119 | Opt-in GCF responses | `src/server.py` |
+| [sieteunoseis/mcp-cisco-support](https://github.com/sieteunoseis/mcp-cisco-support) | 34 | GCF response format | `package.json` |
 | [NETGVai/NeuroNest](https://github.com/NETGVai/NeuroNest) | 20 | GCF serializer | `package.json` |
-| [operasoftware/opera-devtools-mcp](https://github.com/operasoftware/opera-devtools-mcp) | 15 | Optional GCF output for MCP tool results | `package.json` |
+| [operasoftware/opera-devtools-mcp](https://github.com/operasoftware/opera-devtools-mcp) | 16 | Optional GCF output for MCP tool results | `package.json` |
 | [hewimetall/vmcp](https://github.com/hewimetall/vmcp) | 13 | GCF output from its MCP gateway | `crates/vmcp-server/src/gcf_out.rs` |
-| [thawkins/ragent](https://github.com/thawkins/ragent) | 7 | GCF crate behind a config flag | `crates/ragent-config/src/gcf.rs` |
+| [thawkins/ragent](https://github.com/thawkins/ragent) | 9 | GCF crate behind a config flag | `crates/ragent-config/src/gcf.rs` |
 | [dmmdea/offload-harness](https://github.com/dmmdea/offload-harness) | 4 | GCF encoding in its harness | `internal/gcf/gcf.go` |
 | [pcDamasceno/neterse](https://github.com/pcDamasceno/neterse) | 3 | Optional GCF extra (gcf-python) | `pyproject.toml` |
 | [chaitanya-sharmaa/axon](https://github.com/chaitanya-sharmaa/axon) | 2 | GCF (gcf-python) | `pyproject.toml` |
@@ -49,13 +49,14 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 
 | Repository | Stars | How it is used | Evidence |
 |---|---|---|---|
-| [liuyanghejerry/Clausura](https://github.com/liuyanghejerry/Clausura) | 204 | agent-lsp as a command backend for CI code review | `examples/mcp-lsp-review.yaml` |
+| [liuyanghejerry/Clausura](https://github.com/liuyanghejerry/Clausura) | 205 | agent-lsp as a command backend for CI code review | `examples/mcp-lsp-review.yaml` |
 | [nix-community/nur-combined](https://github.com/nix-community/nur-combined) | 204 | Packaged in the Nix User Repository | `NUR package` |
-| [NVlabs/Skill2Env](https://github.com/NVlabs/Skill2Env) | 190 | Vendors agent-lsp skills | `lsp-safe-edit SKILL.md` |
-| [sudosubin/agents.nix](https://github.com/sudosubin/agents.nix) | 18 | agent-lsp skills packaged for Nix | `skills` |
+| [NVlabs/Skill2Env](https://github.com/NVlabs/Skill2Env) | 198 | Vendors agent-lsp skills | `lsp-safe-edit SKILL.md` |
+| [sudosubin/agents.nix](https://github.com/sudosubin/agents.nix) | 20 | agent-lsp skills packaged for Nix | `skills` |
+| [swordtraveller/codey](https://github.com/swordtraveller/codey) | 18 | Desktop agent app with built-in agent-lsp integration and guidance | `src/main/mcp/tool-provider.ts` |
 | [artemnoor/CodeSlicer](https://github.com/artemnoor/CodeSlicer) | 14 | CI tests against agent-lsp | `pyproject.toml` |
 | [hewimetall/vmcp](https://github.com/hewimetall/vmcp) | 13 | agent-lsp as the LSP layer behind its gateway | `scripts/run-agent-lsp.sh` |
-| [krabka-io/krabka-broker](https://github.com/krabka-io/krabka-broker) | 6 | agent-lsp in project MCP config | `.mcp.json` |
+| [krabka-io/krabka-broker](https://github.com/krabka-io/krabka-broker) | 7 | agent-lsp in project MCP config | `.mcp.json` |
 | [loic-roux-404/plateforme](https://github.com/loic-roux-404/plateforme) | 6 | agent-lsp in VS Code MCP config (Nix, Terraform, YAML) | `.vscode/mcp.json` |
 | [AlexaDeWit/Ecluse](https://github.com/AlexaDeWit/Ecluse) | 5 | agent-lsp in project MCP config | `.mcp.json` |
 | [berlinguyinca/autospec](https://github.com/berlinguyinca/autospec) | 3 | agent-lsp code-intelligence backend | `docs/code-intelligence.md` |
@@ -64,6 +65,7 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 | [Hellblazer/qwen-coprocessor-stack](https://github.com/Hellblazer/qwen-coprocessor-stack) | 1 | agent-lsp MCP server for coprocessor agents | `config/coprocessor-pool-codeintel.example.json` |
 | [krabka-io/krabka-io.github.io](https://github.com/krabka-io/krabka-io.github.io) | 1 | agent-lsp in project MCP config | `.mcp.json` |
 | [krabka-io/krabka-schema-registry](https://github.com/krabka-io/krabka-schema-registry) | 1 | agent-lsp in project MCP config | `.mcp.json` |
+| [krabka-io/krabka-streams-rs](https://github.com/krabka-io/krabka-streams-rs) | 1 | agent-lsp in project MCP config | `.mcp.json` |
 | [OKHP3/askjamie-foundry](https://github.com/OKHP3/askjamie-foundry) | 1 | Vendors agent-lsp skills | `lsp-safe-edit SKILL.md` |
 | [aashutosh396/mindpalace](https://github.com/aashutosh396/mindpalace) | 0 | Vendors the agent-lsp skill | `_skillforge/MANIFEST.json` |
 | [bit0rez/gentoo_overlay](https://github.com/bit0rez/gentoo_overlay) | 0 | Gentoo ebuild for agent-lsp | `dev-misc/agent-lsp/agent-lsp-0.19.2.ebuild` |
@@ -79,24 +81,23 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 | [krabka-io/krabka-rebalancer](https://github.com/krabka-io/krabka-rebalancer) | 0 | agent-lsp in project MCP config | `.mcp.json` |
 | [krabka-io/krabka-streams-go](https://github.com/krabka-io/krabka-streams-go) | 0 | agent-lsp in project MCP config | `.mcp.json` |
 | [krabka-io/krabka-streams-java](https://github.com/krabka-io/krabka-streams-java) | 0 | agent-lsp in project MCP config | `.mcp.json` |
-| [krabka-io/krabka-streams-rs](https://github.com/krabka-io/krabka-streams-rs) | 0 | agent-lsp in project MCP config | `.mcp.json` |
 | [krabka-io/tooling](https://github.com/krabka-io/tooling) | 0 | agent-lsp in project MCP config | `.mcp.json` |
 | [leafclick/codex-universal](https://github.com/leafclick/codex-universal) | 0 | agent-lsp installed in its Codex image | `Dockerfile.generic` |
 | [PCSchmidt/Syntaris](https://github.com/PCSchmidt/Syntaris) | 0 | Vendors agent-lsp skills | `lsp-safe-edit SKILL.md` |
 | [selfagency/bifrost-docker](https://github.com/selfagency/bifrost-docker) | 0 | agent-lsp installed in its Docker image | `Dockerfile` |
 | [TDQUOC/TDQ-Workflow](https://github.com/TDQUOC/TDQ-Workflow) | 0 | Setup script installs agent-lsp releases | `scripts/tdq_setup.py` |
-| Individual developers (4) | | Personal setups: dotfiles, homelab and Nix configurations | |
+| Individual developers (5) | | Personal setups: dotfiles, homelab and Nix configurations | |
 
 ## mcp-assert
 
 | Repository | Stars | How it is used | Evidence |
 |---|---|---|---|
-| [WYRE-AI/autotask-mcp](https://github.com/WYRE-AI/autotask-mcp) | 58 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
-| [WYRE-AI/connectwise-manage-mcp](https://github.com/WYRE-AI/connectwise-manage-mcp) | 28 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
-| [WYRE-AI/ninjaone-mcp](https://github.com/WYRE-AI/ninjaone-mcp) | 26 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
-| [WYRE-AI/itglue-mcp](https://github.com/WYRE-AI/itglue-mcp) | 17 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
-| [WYRE-AI/cipp-mcp](https://github.com/WYRE-AI/cipp-mcp) | 11 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
-| [WYRE-AI/proofpoint-mcp](https://github.com/WYRE-AI/proofpoint-mcp) | 5 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
+| [WYRE-AI/autotask-mcp](https://github.com/WYRE-AI/autotask-mcp) | 61 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
+| [WYRE-AI/connectwise-manage-mcp](https://github.com/WYRE-AI/connectwise-manage-mcp) | 31 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
+| [WYRE-AI/ninjaone-mcp](https://github.com/WYRE-AI/ninjaone-mcp) | 29 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
+| [WYRE-AI/itglue-mcp](https://github.com/WYRE-AI/itglue-mcp) | 18 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
+| [WYRE-AI/cipp-mcp](https://github.com/WYRE-AI/cipp-mcp) | 13 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
+| [WYRE-AI/proofpoint-mcp](https://github.com/WYRE-AI/proofpoint-mcp) | 6 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
 | [WYRE-AI/datto-rmm-mcp](https://github.com/WYRE-AI/datto-rmm-mcp) | 4 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
 | [WYRE-AI/syncro-mcp](https://github.com/WYRE-AI/syncro-mcp) | 4 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
 | [WYRE-AI/action1-mcp](https://github.com/WYRE-AI/action1-mcp) | 3 | mcp-assert in CI via the shared workflow | `.github/workflows/mcp-assert.yml` |
@@ -138,14 +139,14 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 
 | Repository | Stars | How it is used | Evidence |
 |---|---|---|---|
-| [apereo/cas](https://github.com/apereo/cas) | 11,390 | Secret Manager emulator in CI | `ci/tests/gcp/run-gcp-server.sh` |
-| [flipt-io/flipt](https://github.com/flipt-io/flipt) | 4,928 | Secret Manager emulator in integration tests | `build/testing/integration.go` |
-| [camunda/camunda](https://github.com/camunda/camunda) | 4,339 | Secret Manager emulator in end-to-end tests | `secret-store/.../SecretManagerEmulatorContainer.java` |
+| [apereo/cas](https://github.com/apereo/cas) | 11,394 | Secret Manager emulator in CI | `ci/tests/gcp/run-gcp-server.sh` |
+| [flipt-io/flipt](https://github.com/flipt-io/flipt) | 4,936 | Secret Manager emulator in integration tests | `build/testing/integration.go` |
+| [camunda/camunda](https://github.com/camunda/camunda) | 4,349 | Secret Manager emulator in end-to-end tests | `secret-store/.../SecretManagerEmulatorContainer.java` |
 | [akash-network/console](https://github.com/akash-network/console) | 263 | KMS emulator in the dev stack | `packages/docker/docker-compose.dev.yml` |
-| [qamarudeenm/minisky](https://github.com/qamarudeenm/minisky) | 58 | Secret Manager service in a local GCP emulator | `docker/secretmanager.Dockerfile` |
-| [reagento/dature](https://github.com/reagento/dature) | 48 | Secret Manager and IAM emulators in integration tests | `tests/integration/sources/gcp_secret_manager/` |
-| [adorsys/status-list-server](https://github.com/adorsys/status-list-server) | 26 | Secret Manager emulator in Rust integration tests | `tests/gcp_secrets_manager.rs` |
-| [mpyw/suve](https://github.com/mpyw/suve) | 14 | Secret Manager emulator in test environments | `compose.yaml` |
+| [qamarudeenm/minisky](https://github.com/qamarudeenm/minisky) | 61 | Secret Manager service in a local GCP emulator | `docker/secretmanager.Dockerfile` |
+| [reagento/dature](https://github.com/reagento/dature) | 49 | Secret Manager and IAM emulators in integration tests | `tests/integration/sources/gcp_secret_manager/` |
+| [adorsys/status-list-server](https://github.com/adorsys/status-list-server) | 27 | Secret Manager emulator in Rust integration tests | `tests/gcp_secrets_manager.rs` |
+| [mpyw/suve](https://github.com/mpyw/suve) | 15 | Secret Manager emulator in test environments | `compose.yaml` |
 | [mferretti/SeedStream](https://github.com/mferretti/SeedStream) | 4 | Secret Manager emulator in integration tests | `GoogleSecretManagerResolverIT.java` |
 | [farmisen/zuul](https://github.com/farmisen/zuul) | 3 | Secret Manager emulator (built from a fork) in Docker Compose | `docker-compose.emulator.yml` |
 | [lagdo/dbadmin-mono](https://github.com/lagdo/dbadmin-mono) | 2 | Secret Manager emulator in Docker Compose | `docker/compose-secrets/docker-compose.yml` |
