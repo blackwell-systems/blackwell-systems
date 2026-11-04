@@ -6,7 +6,7 @@
 
 创始人：Dayna Blackwell。我构建智能体 AI 技术栈赖以运行的开放基础设施，并交付支撑它的证据：持久化智能体、线路格式、代码智能、MCP 工具链以及一致性测试，其背后皆有研究支撑。独立，证据优先。
 
-**已被 60+ 个组织的 120+ 个代码仓库使用，下载量超过 100 万**，包括 Google 的 Chrome DevTools MCP、Opera、Apereo CAS、Camunda 和 Flipt。
+**已被 60+ 个组织的 120+ 个代码仓库使用，下载量超过 100 万**，包括 Google 的 Chrome DevTools MCP、Opera、Consensys、Apereo CAS、Camunda 和 Flipt。
 
 ---
 
@@ -109,7 +109,7 @@
 
 ### GCP Emulator Suite
 
-面向开发与 CI 的 Google Cloud API 本地实现。无需任何 GCP 凭据。已被 10 个项目使用，包括 Apereo CAS、Flipt 和 Camunda。
+面向开发与 CI 的 Google Cloud API 本地实现。无需任何 GCP 凭据。已被 10 个项目使用，包括 Consensys、Apereo CAS、Flipt 和 Camunda。
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)

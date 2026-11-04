@@ -6,7 +6,7 @@
 
 Founder: Dayna Blackwell. I build the open infrastructure the agentic AI stack runs on, and ship the evidence to back it: durable agents, wire formats, code intelligence, MCP tooling, and conformance testing, with the research underneath. Independent, evidence-first.
 
-**My work is used by 120+ repositories across 60+ organizations, with 1M+ downloads**, including Google's Chrome DevTools MCP, Opera, Apereo CAS, Camunda and Flipt.
+**My work is used by 120+ repositories across 60+ organizations, with 1M+ downloads**, including Google's Chrome DevTools MCP, Opera, Consensys, Apereo CAS, Camunda and Flipt.
 
 ---
 
@@ -109,7 +109,7 @@ Go structs to TypeScript and Zod, one source of truth. Discriminated unions, enu
 
 ### GCP Emulator Suite
 
-Local implementations of Google Cloud APIs for development and CI. No GCP credentials required. Used by 10 projects, including Apereo CAS, Flipt and Camunda.
+Local implementations of Google Cloud APIs for development and CI. No GCP credentials required. Used by 10 projects, including Consensys, Apereo CAS, Flipt and Camunda.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
