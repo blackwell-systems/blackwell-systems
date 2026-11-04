@@ -664,6 +664,18 @@ adopters:
   evidence: ci/tests/gcp/run-gcp-server.sh
   individual: false
 - project: GCP emulators
+  repo: Consensys-Incorporated/web3signer
+  category: testing / dev
+  how: Secret Manager emulator for GCP acceptance tests in CI (Testcontainers)
+  evidence: gradle/versions.gradle
+  individual: false
+- project: GCP emulators
+  repo: 2026-2-MCC2/Projeto2
+  category: testing / dev
+  how: Secret Manager emulator in the local Docker Compose stack
+  evidence: src/Backend/docker-compose.yml
+  individual: false
+- project: GCP emulators
   repo: flipt-io/flipt
   category: testing / dev
   how: Secret Manager emulator in integration tests

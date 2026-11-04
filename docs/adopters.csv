@@ -1,9 +1,9 @@
 project,repository,owner_type,stars,category,how_used,evidence,verified
 GCF,automateyournetwork/netclaw,User,714,direct use,GCF for MCP responses (gcf-python),src/netclaw_tokens/requirements.txt,2026-10-26
 GCF,chaitanya-sharmaa/axon,User,2,direct use,GCF (gcf-python),pyproject.toml,2026-10-26
-GCF,cheaper-inference/OmniRoute,Organization,84313,direct use,GCF encoder vendored into its compression engine,open-sse/services/compression/engines/headroom/gcf/index.ts,2026-10-26
+GCF,cheaper-inference/OmniRoute,Organization,84348,direct use,GCF encoder vendored into its compression engine,open-sse/services/compression/engines/headroom/gcf/index.ts,2026-10-26
 GCF,ChetanKoneru/gcf-mode,User,0,direct use,Emacs major mode for .gcf files,gcf-mode.el,2026-10-26
-GCF,ChromeDevTools/chrome-devtools-mcp,Organization,54747,direct use,Optional GCF output for MCP tool results,package.json,2026-10-26
+GCF,ChromeDevTools/chrome-devtools-mcp,Organization,54753,direct use,Optional GCF output for MCP tool results,package.json,2026-10-26
 GCF,CodeGraphContext/CodeGraphContext,Organization,4374,direct use,Optional GCF output (gcf-python),pyproject.toml,2026-10-26
 GCF,cr7258/elasticsearch-mcp-server,User,314,direct use,GCF responses (gcf-python),pyproject.toml,2026-10-26
 GCF,daniel3303/Equibles,User,240,direct use,Opt-in GCF output for table tools (.NET SDK),Directory.Packages.props,2026-10-26
@@ -109,10 +109,12 @@ mcp-assert,WYRE-AI/syncro-mcp,Organization,4,CI,mcp-assert in CI via the shared 
 mcp-assert,WYRE-AI/xero-mcp,Organization,1,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
 mcp-assert,wyre-technology/.github,Organization,0,CI infrastructure,Shared reusable mcp-assert workflow,.github/workflows/mcp-assert.yml,2026-10-26
 mcp-assert,wyre-technology/afkbot-mcp,Organization,0,CI,mcp-assert in CI via the shared workflow,.github/workflows/mcp-assert.yml,2026-10-26
+GCP emulators,2026-2-MCC2/Projeto2,Organization,1,testing / dev,Secret Manager emulator in the local Docker Compose stack,src/Backend/docker-compose.yml,2026-10-26
 GCP emulators,adorsys/status-list-server,Organization,27,testing / dev,Secret Manager emulator in Rust integration tests,tests/gcp_secrets_manager.rs,2026-10-26
 GCP emulators,akash-network/console,Organization,263,testing / dev,KMS emulator in the dev stack,packages/docker/docker-compose.dev.yml,2026-10-26
 GCP emulators,apereo/cas,Organization,11394,testing / dev,Secret Manager emulator in CI,ci/tests/gcp/run-gcp-server.sh,2026-10-26
 GCP emulators,camunda/camunda,Organization,4349,testing / dev,Secret Manager emulator in end-to-end tests,secret-store/.../SecretManagerEmulatorContainer.java,2026-10-26
+GCP emulators,Consensys-Incorporated/web3signer,Organization,271,testing / dev,Secret Manager emulator for GCP acceptance tests in CI (Testcontainers),gradle/versions.gradle,2026-10-26
 GCP emulators,farmisen/zuul,User,3,testing / dev,Secret Manager emulator (built from a fork) in Docker Compose,docker-compose.emulator.yml,2026-10-26
 GCP emulators,flipt-io/flipt,Organization,4936,testing / dev,Secret Manager emulator in integration tests,build/testing/integration.go,2026-10-26
 GCP emulators,lagdo/dbadmin-mono,Organization,2,testing / dev,Secret Manager emulator in Docker Compose,docker/compose-secrets/docker-compose.yml,2026-10-26
