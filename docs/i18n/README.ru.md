@@ -109,12 +109,12 @@ AI-нативный формат передачи структурированн
 
 ### GCP Emulator Suite
 
-Локальные реализации API Google Cloud для разработки и CI. Учётные данные GCP не требуются. Используется в 10 проектах, включая Consensys, Apereo CAS, Flipt и Camunda.
+Локальные реализации API Google Cloud для разработки и CI. Учётные данные GCP не требуются. Используется в 13 проектах, включая Consensys, Apereo CAS, Flipt и Camunda.
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
 
-[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator) (275K+ загрузок) ·
+[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator) (350K+ загрузок) ·
 [KMS](https://github.com/blackwell-systems/gcp-kms-emulator) ·
 [IAM](https://github.com/blackwell-systems/gcp-iam-emulator) ·
 [Eventarc](https://github.com/blackwell-systems/gcp-eventarc-emulator) ·

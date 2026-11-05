@@ -109,12 +109,12 @@
 
 ### GCP Emulator Suite
 
-面向开发与 CI 的 Google Cloud API 本地实现。无需任何 GCP 凭据。已被 10 个项目使用，包括 Consensys、Apereo CAS、Flipt 和 Camunda。
+面向开发与 CI 的 Google Cloud API 本地实现。无需任何 GCP 凭据。已被 13 个项目使用，包括 Consensys、Apereo CAS、Flipt 和 Camunda。
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6fa2c9?style=for-the-badge)](https://github.com/blackwell-systems/gcp-secret-manager-emulator/blob/main/LICENSE)
 
-[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator)（275K+ 次下载）·
+[Secret Manager](https://github.com/blackwell-systems/gcp-secret-manager-emulator)（350K+ 次下载）·
 [KMS](https://github.com/blackwell-systems/gcp-kms-emulator) ·
 [IAM](https://github.com/blackwell-systems/gcp-iam-emulator) ·
 [Eventarc](https://github.com/blackwell-systems/gcp-eventarc-emulator) ·
