@@ -1,9 +1,9 @@
 project,repository,owner_type,stars,category,how_used,evidence,verified
 GCF,automateyournetwork/netclaw,User,735,direct use,GCF for MCP responses (gcf-python),src/netclaw_tokens/requirements.txt,2026-11-19
 GCF,chaitanya-sharmaa/axon,User,2,direct use,GCF (gcf-python),pyproject.toml,2026-11-19
-GCF,cheaper-inference/OmniRoute,Organization,89008,direct use,GCF encoder vendored into its compression engine,open-sse/services/compression/engines/headroom/gcf/index.ts,2026-11-19
+GCF,cheaper-inference/OmniRoute,Organization,89009,direct use,GCF encoder vendored into its compression engine,open-sse/services/compression/engines/headroom/gcf/index.ts,2026-11-19
 GCF,ChetanKoneru/gcf-mode,User,0,direct use,Emacs major mode for .gcf files,gcf-mode.el,2026-11-19
-GCF,ChromeDevTools/chrome-devtools-mcp,Organization,58413,direct use,Optional GCF output for MCP tool results,package.json,2026-11-19
+GCF,ChromeDevTools/chrome-devtools-mcp,Organization,58414,direct use,Optional GCF output for MCP tool results,package.json,2026-11-19
 GCF,CodeGraphContext/CodeGraphContext,Organization,4441,direct use,Optional GCF output (gcf-python),pyproject.toml,2026-11-19
 GCF,cr7258/elasticsearch-mcp-server,User,320,direct use,GCF responses (gcf-python),pyproject.toml,2026-11-19
 GCF,daniel3303/Equibles,User,246,direct use,Opt-in GCF output for table tools (.NET SDK),Directory.Packages.props,2026-11-19
@@ -129,5 +129,6 @@ GCP emulators,mferretti/SeedStream,User,4,testing / dev,Secret Manager emulator 
 GCP emulators,mpyw/suve,User,17,testing / dev,Secret Manager emulator in test environments,compose.yaml,2026-11-19
 GCP emulators,qamarudeenm/minisky,User,61,testing / dev,Secret Manager service in a local GCP emulator,docker/secretmanager.Dockerfile,2026-11-19
 GCP emulators,reagento/dature,Organization,57,testing / dev,Secret Manager and IAM emulators in integration tests,tests/integration/sources/gcp_secret_manager/,2026-11-19
+GCP emulators,wtnabe/bindan,User,1,testing / dev,"Secret Manager emulator in the test compose stack, alongside fake-gcs-server and Google's Firestore emulator",compose.yml,2026-11-19
 claudewatch,Pepsi1978/proggs,User,1,dev environment,Hook downloads and runs claudewatch,claude-code-setup/hooks/path-verify.sh,2026-11-19
 claudewatch,willsawyerrrr/dotfiles,User,1,dev environment,"claudewatch binary in a Claude Code hook, plus the claudewatch plugin",dot-config/claude/settings.json,2026-11-19

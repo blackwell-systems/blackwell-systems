@@ -2,14 +2,14 @@
 
 Third-party repositories that use Blackwell Systems projects, each verified by opening the file listed under Evidence. Last verified 2026-11-19.
 
-**131 repositories across 69 organizations and developers**, plus 2 adopters without a public repository (Open Data Products SDK, SkyElite).
+**132 repositories across 70 organizations and developers**, plus 2 adopters without a public repository (Open Data Products SDK, SkyElite).
 
 | Project | Repositories |
 |---|---|
 | [GCF](https://github.com/blackwell-systems/gcf) | 27 |
 | [agent-lsp](https://github.com/blackwell-systems/agent-lsp) | 47 |
 | [mcp-assert](https://github.com/blackwell-systems/mcp-assert) | 42 |
-| [GCP emulators](https://github.com/blackwell-systems/gcp-emulator) | 14 |
+| [GCP emulators](https://github.com/blackwell-systems/gcp-emulator) | 15 |
 | [claudewatch](https://github.com/blackwell-systems/claudewatch) | 2 |
 
 Counted: direct use in code, dependency manifests, MCP and editor configs, CI, containers, packaging, and vendored skills. Not counted: our own repositories, forks, copies of an adopting project, packages that arrive only indirectly through another dependency (lockfile-only), catalogs and awesome lists, documentation-only mentions, and unrelated projects that share a name. The full method and scripts are in [`adoption/`](../adoption/).
@@ -18,8 +18,8 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 
 | Repository | Stars | How it is used | Evidence |
 |---|---|---|---|
-| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 89,008 | GCF encoder vendored into its compression engine | `open-sse/services/compression/engines/headroom/gcf/index.ts` |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 58,413 | Optional GCF output for MCP tool results | `package.json` |
+| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 89,009 | GCF encoder vendored into its compression engine | `open-sse/services/compression/engines/headroom/gcf/index.ts` |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 58,414 | Optional GCF output for MCP tool results | `package.json` |
 | [CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext) | 4,441 | Optional GCF output (gcf-python) | `pyproject.toml` |
 | [automateyournetwork/netclaw](https://github.com/automateyournetwork/netclaw) | 735 | GCF for MCP responses (gcf-python) | `src/netclaw_tokens/requirements.txt` |
 | [Fast-Editor/Lynkr](https://github.com/Fast-Editor/Lynkr) | 642 | GCF context encoding | `package.json` |
@@ -156,6 +156,7 @@ Counted: direct use in code, dependency manifests, MCP and editor configs, CI, c
 | [farmisen/zuul](https://github.com/farmisen/zuul) | 3 | Secret Manager emulator (built from a fork) in Docker Compose | `docker-compose.emulator.yml` |
 | [lagdo/dbadmin-mono](https://github.com/lagdo/dbadmin-mono) | 2 | Secret Manager emulator in Docker Compose | `docker/compose-secrets/docker-compose.yml` |
 | [2026-2-MCC2/Projeto2](https://github.com/2026-2-MCC2/Projeto2) | 1 | Secret Manager emulator in the local Docker Compose stack | `src/Backend/docker-compose.yml` |
+| [wtnabe/bindan](https://github.com/wtnabe/bindan) | 1 | Secret Manager emulator in the test compose stack, alongside fake-gcs-server and Google's Firestore emulator | `compose.yml` |
 | [G-man3207/Kronik](https://github.com/G-man3207/Kronik) | 0 | KMS emulator (pinned by digest) in end-to-end key tests across four key-management backends | `scripts/e2e-keys.py` |
 
 ## claudewatch

@@ -747,6 +747,12 @@ adopters:
   how: KMS emulator (pinned by digest) in end-to-end key tests across four key-management backends
   evidence: scripts/e2e-keys.py
   individual: false
+- project: GCP emulators
+  repo: wtnabe/bindan
+  category: testing / dev
+  how: Secret Manager emulator in the test compose stack, alongside fake-gcs-server and Google's Firestore emulator
+  evidence: compose.yml
+  individual: false
 - project: claudewatch
   repo: Pepsi1978/proggs
   category: dev environment
