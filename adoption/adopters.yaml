@@ -7,7 +7,7 @@
 #
 # individual: true marks a personal setup (dotfiles, homelab, personal Nix config). These
 # are counted but shown as a group on the public page rather than named one by one.
-verified: '2026-10-26'
+verified: '2026-11-19'
 adopters:
 - project: GCF
   repo: ChromeDevTools/chrome-devtools-mcp
@@ -164,6 +164,12 @@ adopters:
   category: direct use
   how: GCF encoding in its harness
   evidence: internal/gcf/gcf.go
+  individual: false
+- project: GCF
+  repo: MarcoValdovinos/pcs-protocol
+  category: direct use
+  how: Returns GCF instead of JSON from a dashboard API route (encodeGeneric)
+  evidence: services/marv-integrity/apps/web-dashboard/package.json
   individual: false
 - project: agent-lsp
   repo: liuyanghejerry/Clausura
@@ -735,6 +741,12 @@ adopters:
   how: Secret Manager emulator (built from a fork) in Docker Compose
   evidence: docker-compose.emulator.yml
   individual: false
+- project: GCP emulators
+  repo: G-man3207/Kronik
+  category: testing / dev
+  how: KMS emulator (pinned by digest) in end-to-end key tests across four key-management backends
+  evidence: scripts/e2e-keys.py
+  individual: false
 - project: claudewatch
   repo: Pepsi1978/proggs
   category: dev environment
@@ -759,6 +771,36 @@ adopters:
   how: agent-lsp installed in its Docker image
   evidence: Dockerfile
   individual: false
+- project: agent-lsp
+  repo: dwmuller/DFCompanion
+  category: dev environment
+  how: agent-lsp as the MCP server in Cline (TypeScript and JSON language servers)
+  evidence: .vscode/cline_mcp_settings.json
+  individual: false
+- project: agent-lsp
+  repo: nauxi-xl/trellis-template
+  category: dev environment
+  how: agent-lsp MCP server and /lsp skills in a multi-agent template; nightly CI checks agent-lsp releases
+  evidence: .mcp.json
+  individual: false
+- project: agent-lsp
+  repo: TDQUOC/TDQ-Workflow-Antigravity
+  category: integration
+  how: Setup script installs agent-lsp from releases and registers it as the MCP server
+  evidence: docs/tdq/artifacts/2026-11-03-1420-phoi-hop-cong-cu/baseline/scripts/tdq_setup.py
+  individual: false
+- project: agent-lsp
+  repo: norodd93/personal_winutils
+  category: dev environment
+  how: Rules written by agent-lsp init for Cline
+  evidence: .clinerules
+  individual: true
+- project: agent-lsp
+  repo: icalder/nixos
+  category: packaging
+  how: Nix package for agent-lsp
+  evidence: packages/agent-lsp/agent-lsp.nix
+  individual: true
 without_public_repo:
 - project: GCF
   name: Open Data Products SDK
